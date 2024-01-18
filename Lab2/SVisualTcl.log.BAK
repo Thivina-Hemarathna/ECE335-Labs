@@ -1,0 +1,44 @@
+###########################################
+# Sentaurus Visual U-2022.12.
+# Tcl log file.
+#------------------------------------------
+# Date: Dec. 06, 2023. 03:42:33.
+# Version: 34.2.7893487 (2.7893487)
+# Mode: Interactive (GUI).
+# Mesa: enabled.
+# Hostname: ug142.
+# Machine: Linux, x86_64, x86_64.
+# Kernel: 5.10.0-26-amd64.
+###########################################
+
+load_script_file /nfs/ug/homes-1/h/hemarath/SentaurusDB/ECE335/Project_2/n8_vis.tcl
+cd /nfs/ug/homes-1/h/hemarath/SentaurusDB/ECE335/Project_2
+# ext::SetInfoDef > WARNING: Procedure ext::SetInfoDef  is depreciated! Please use the procedure lib::SetInfoDef.
+# #########################################
+# Plotting Id-Vg (lin) curve
+# #########################################
+# WARNING:The parameter 'scale_font_size' is deprecated. Please, use the parameter 'label_font_size'  instead.
+# WARNING:The parameter 'scale_font_size' is deprecated. Please, use the parameter 'label_font_size'  instead.
+# WARNING:The parameter 'font_att' is deprecated. Please, use the parameter 'label_font_att' for 1D and 'title_font_att' for 2D or 3D  instead.
+# WARNING:The parameter 'font_size' is deprecated. Please, use the parameter 'label_font_size'  instead.
+# #########################################
+# Extracting parameters from Id-Vgs (lin) curve
+# #########################################
+# Internal Procedure > ext::Getxomt > Max gm is at last bias point
+# DOE: Vtgm 1.115
+# 
+# DOE: VtiLin x
+# 
+# ext::ExtractVti: WARNING: Vti (Vg at io=2.222e-06): leakage current higher than io!
+# ext::ExtractExtremum> Extracting maxima
+# DOE: IdLin 9.959e-08
+# 
+# DOE: SSlin 1449.641
+# 
+# Internal Procedure > ext::Getxomt > Max gm is at last bias point
+# DOE: gmLin 1.170e-06
+# 
+# Vt (Max gm method) is 1.115 V
+#!-> Error: load_script_file: '/nfs/ug/homes-1/h/hemarath/SentaurusDB/ECE335/Project_2/n8_vis.tcl': expected floating-point number but got "x". (line 61).
+exit 0
+ 

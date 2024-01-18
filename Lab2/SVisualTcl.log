@@ -1,0 +1,45 @@
+###########################################
+# Sentaurus Visual U-2022.12.
+# Tcl log file.
+#------------------------------------------
+# Date: Dec. 06, 2023. 03:45:25.
+# Version: 34.2.7893487 (2.7893487)
+# Mode: Interactive (GUI).
+# Mesa: enabled.
+# Hostname: ug142.
+# Machine: Linux, x86_64, x86_64.
+# Kernel: 5.10.0-26-amd64.
+###########################################
+
+load_script_file /nfs/ug/homes-1/h/hemarath/SentaurusDB/ECE335/Project_2/n11_vis.tcl
+cd /nfs/ug/homes-1/h/hemarath/SentaurusDB/ECE335/Project_2
+# ext::SetInfoDef > WARNING: Procedure ext::SetInfoDef  is depreciated! Please use the procedure lib::SetInfoDef.
+# #########################################
+# Plotting Id-Vg (sat) curve
+# #########################################
+# WARNING:The parameter 'scale_font_size' is deprecated. Please, use the parameter 'label_font_size'  instead.
+# WARNING:The parameter 'scale_font_size' is deprecated. Please, use the parameter 'label_font_size'  instead.
+# WARNING:The parameter 'font_att' is deprecated. Please, use the parameter 'label_font_att' for 1D and 'title_font_att' for 2D or 3D  instead.
+# WARNING:The parameter 'font_size' is deprecated. Please, use the parameter 'label_font_size'  instead.
+# #########################################
+# Extracting parameters from Id-Vgs (sat) curve
+# #########################################
+# DOE: VtiSat 1.183
+# 
+# ext::ExtractExtremum> Extracting maxima
+# DOE: IdSat 2.912e-06
+# 
+# DOE: Ioff 1.867e-11
+# DOE: SSsat 16517.493
+# 
+# Internal Procedure > ext::Getxomt > Max gm is at last bias point
+# DOE: gmSat 3.374e-05
+# 
+# Vti (Vg at Io= 2.222e-06 A/um) is 1.183 V
+# Max IdSat is 2.912e-06 A/um
+# Ioff is 1.867e-11 A/um
+# SSsat is 16517.493 mV/dec
+# Max gm is 3.374e-05 S/um
+#-> 0
+exit 0
+ 

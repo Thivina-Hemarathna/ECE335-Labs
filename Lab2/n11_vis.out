@@ -1,0 +1,44 @@
+Enabling MESA because GLX was not detected.
+AVX support detected. Using MESA with AVX support.
+
+****************************************************************************
+***                           Sentaurus Visual                           ***
+***                           Version U-2022.12                          ***
+***                      (2.7893487, x86_64, Linux)                      ***
+***                                                                      ***
+***                        Copyright (c) 2012-2022                       ***
+***                            Synopsys, Inc.                            ***
+***  This software and the associated documentation are confidential     ***
+***  and proprietary to Synopsys, Inc.  Your use or disclosure of this   ***
+***  software is subject to the terms and conditions of a written        ***
+***  license agreement between you, or your company, and Synopsys, Inc.  ***
+****************************************************************************
+
+Compiled Mon Nov 14 18:34:06 PST 2022 on swe-vm-kcr-tcad02
+
+Datexcodes: Found and Loaded at: '/CMC/tools/synopsys/sentaurus_vU-2022.12/bin/../tcad/current/lib/datexcodes.txt'.
+Datexcodes: Found and Loaded at: '/CMC/tools/synopsys/sentaurus_vU-2022.12/tcad/current/lib/datexcodes.txt'.
+Tcl-Library: path added: '/CMC/tools/synopsys/sentaurus_vU-2022.12/bin/../tcad/current/lib/svisuallib'.
+Tcl-Library: path added: '/homes/h/hemarath/svisuallib'.
+Loading Custom Buttons interface ... version 45
+Loading Extraction Library Version 2.3
+Loading Internal Library Version 0.7
+Loading Physical Constants Library Version 0.4
+Loading IFM Data Post-Processing Library Version 1.3.0
+Loading RF Parameter Extraction Library Version 1.0.2
+Tcl-Library: files successfully loaded: '6'.
+ext::SetInfoDef > WARNING: Procedure ext::SetInfoDef  is depreciated! Please use the procedure lib::SetInfoDef.
+
+Gate Length: 0.045 um 
+
+DOE: VtiSat 1.183
+
+ext::ExtractExtremum> Extracting maxima
+DOE: IdSat 2.912e-06
+
+DOE: Ioff 1.867e-11
+DOE: SSsat 16517.493
+
+Internal Procedure > ext::Getxomt > Max gm is at last bias point
+DOE: gmSat 3.374e-05
+

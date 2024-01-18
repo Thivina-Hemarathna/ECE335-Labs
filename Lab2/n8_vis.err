@@ -1,0 +1,4 @@
+Warning: "The parameter 'scale_font_size' is deprecated. Please, use the parameter 'label_font_size'  instead."
+Warning: "The parameter 'scale_font_size' is deprecated. Please, use the parameter 'label_font_size'  instead."
+Warning: "The parameter 'font_att' is deprecated. Please, use the parameter 'label_font_att' for 1D and 'title_font_att' for 2D or 3D  instead."
+Warning: "The parameter 'font_size' is deprecated. Please, use the parameter 'label_font_size'  instead."

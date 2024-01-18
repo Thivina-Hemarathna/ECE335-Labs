@@ -1,0 +1,103 @@
+###########################################
+# Sentaurus Visual U-2022.12.
+# Tcl log file.
+#------------------------------------------
+# Date: Dec. 06, 2023. 03:45:25.
+# Version: 34.2.7893487 (2.7893487)
+# Mode: Interactive (GUI).
+# Mesa: enabled.
+# Hostname: ug142.
+# Machine: Linux, x86_64, x86_64.
+# Kernel: 5.10.0-26-amd64.
+###########################################
+
+  list_custom_buttons
+  remove_custom_buttons {}
+  add_custom_button -name E -desc {Edit Custom Buttons Toolbar} -script ::customButtons::actionMainMenu
+#--> E
+  add_custom_button -separator
+#--> D1
+  add_custom_button -separator
+#--> D2
+load_script_file /nfs/ug/homes-1/h/hemarath/SentaurusDB/ECE335/Project_2/n11_vis.tcl
+cd /nfs/ug/homes-1/h/hemarath/SentaurusDB/ECE335/Project_2
+  echo ext::SetInfoDef > WARNING: Procedure ext::SetInfoDef  is depreciated! Please use the procedure lib::SetInfoDef.
+# ext::SetInfoDef > WARNING: Procedure ext::SetInfoDef  is depreciated! Please use the procedure lib::SetInfoDef.
+  echo #########################################
+# #########################################
+  echo Plotting Id-Vg (sat) curve
+# Plotting Id-Vg (sat) curve
+  echo #########################################
+# #########################################
+  load_file IdVg_n10_des.plt -name PLT_Sat(nMOS_11)
+#--> PLT_Sat(nMOS_11)
+  list_plots
+  create_plot -name Plot_IdVg -1d
+  select_plots {Plot_IdVg}
+#--> Plot_IdVg
+#--> Plot_IdVg
+  select_plots {Plot_IdVg}
+#--> Plot_IdVg
+  get_variable_data -dataset PLT_Sat(nMOS_11) {gate OuterVoltage}
+#--> 0 0.04 0.08 0.12 0.16 0.2 0.24 0.28 0.32 0.36 0.4 0.44 0.48 0.52 0.56 0.6 0.64 0.68 0.72 0.76 0.8 0.84 0.88 0.92 0.96 1 1.04 1.08 1.12 1.16 1.2
+  get_variable_data -dataset PLT_Sat(nMOS_11) {drain TotalCurrent}
+#--> 1.86659394218e-11 1.85616290929e-11 1.84620234919e-11 1.83649073798e-11 1.82727973152e-11 1.82015690702e-11 1.81315627202e-11 1.80880317287e-11 1.81001460308e-11 1.82236634403e-11 1.85915520884e-11 1.95602210336e-11 2.17864790398e-11 2.64338820791e-11 3.75531579052e-11 6.20842130607e-11 1.16060378959e-10 2.34454680882e-10 4.93124340621e-10 1.05659484349e-09 2.27775939338e-09 4.9085750856e-09 1.05350075755e-08 2.24603195973e-08 4.7457596038e-08 9.91054444359e-08 2.04026561106e-07 4.12550679309e-07 8.14104270526e-07 1.56251461952e-06 2.91228412169e-06
+  create_variable -dataset PLT_Sat(nMOS_11) -name absId -values {1.86659e-11 1.85616e-11 1.8462e-11 1.83649e-11 1.82728e-11 1.82016e-11 1.81316e-11 1.8088e-11 1.81001e-11 1.82237e-11 1.85916e-11 1.95602e-11 2.17865e-11 2.64339e-11 3.75532e-11 6.20842e-11 1.1606e-10 2.34455e-10 4.93124e-10 1.05659e-09 2.27776e-09 4.90858e-09 1.0535e-08 2.24603e-08 4.74576e-08 9.91054e-08 2.04027e-07 4.12551e-07 8.14104e-07 1.56251e-06 2.91228e-06}
+#--> absId
+  create_curve -axisX {gate OuterVoltage} -axisY absId -dataset {PLT_Sat(nMOS_11)} -name IdVgSat(nMOS_11) -plot Plot_IdVg
+#--> IdVgSat(nMOS_11)
+  set_curve_prop {IdVgSat(nMOS_11)} -plot Plot_IdVg -label "IdVg(Sat) (nMOS Lg=0.045 Vd=1.2)" -color #0000ff -line_style solid -line_width 3
+#--> 0
+  set_plot_prop -plot {Plot_IdVg} -title "I<sub>d</sub>-V<sub>gs</sub> Curve" -title_font_size 20
+#--> 0
+  set_axis_prop -plot Plot_IdVg -axis x -title "Gate Voltage \[V\]" -title_font_size 16 -scale_font_size 14 -type linear
+# WARNING:The parameter 'scale_font_size' is deprecated. Please, use the parameter 'label_font_size'  instead.
+#--> 0
+  set_axis_prop -plot Plot_IdVg -axis y -title "Drain Current \[A/<greek>m</greek>m\]" -title_font_size 16 -scale_font_size 14 -type log
+# WARNING:The parameter 'scale_font_size' is deprecated. Please, use the parameter 'label_font_size'  instead.
+#--> 0
+  set_legend_prop -plot Plot_IdVg -font_size 12 -location bottom_right -font_att bold
+# WARNING:The parameter 'font_att' is deprecated. Please, use the parameter 'label_font_att' for 1D and 'title_font_att' for 2D or 3D  instead.
+# WARNING:The parameter 'font_size' is deprecated. Please, use the parameter 'label_font_size'  instead.
+#--> 0
+  echo #########################################
+# #########################################
+  echo Extracting parameters from Id-Vgs (sat) curve
+# Extracting parameters from Id-Vgs (sat) curve
+  echo #########################################
+# #########################################
+  echo DOE: VtiSat 1.183
+# DOE: VtiSat 1.183
+  echo
+# 
+  echo ext::ExtractExtremum> Extracting maxima
+# ext::ExtractExtremum> Extracting maxima
+  echo DOE: IdSat 2.912e-06
+# DOE: IdSat 2.912e-06
+  echo
+# 
+  echo DOE: Ioff 1.867e-11
+# DOE: Ioff 1.867e-11
+  echo DOE: SSsat 16517.493
+# DOE: SSsat 16517.493
+  echo
+# 
+  echo Internal Procedure > ext::Getxomt > Max gm is at last bias point
+# Internal Procedure > ext::Getxomt > Max gm is at last bias point
+  echo DOE: gmSat 3.374e-05
+# DOE: gmSat 3.374e-05
+  echo
+# 
+  echo Vti (Vg at Io= 2.222e-06 A/um) is 1.183 V
+# Vti (Vg at Io= 2.222e-06 A/um) is 1.183 V
+  echo Max IdSat is 2.912e-06 A/um
+# Max IdSat is 2.912e-06 A/um
+  echo Ioff is 1.867e-11 A/um
+# Ioff is 1.867e-11 A/um
+  echo SSsat is 16517.493 mV/dec
+# SSsat is 16517.493 mV/dec
+  echo Max gm is 3.374e-05 S/um
+# Max gm is 3.374e-05 S/um
+#-> 0
+exit 0
+ 

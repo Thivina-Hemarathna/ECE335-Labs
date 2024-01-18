@@ -1,0 +1,117 @@
+
+****************************************************************************
+***                       Sentaurus Workbench gsub                       ***
+***                          Version U-2022.12                           ***
+***                      (2.7886616, x86_64, Linux)                      ***
+***                                                                      ***
+***                Copyright (c) 1994-2022 Synopsys, Inc.                ***
+***                                                                      ***
+***  This software and the associated documentation are confidential     ***
+***  and proprietary to Synopsys, Inc.  Your use or disclosure of this   ***
+***  software is subject to the terms and conditions of a written        ***
+***  license agreement between you, or your company, and Synopsys, Inc.  ***
+****************************************************************************
+
+gsub is running on host 'ug142.eecg.toronto.edu' by user 'hemarath'
+Binary '/CMC/tools/synopsys/sentaurus_vU-2022.12/bin/../tcad/current/linux64/bin/../lib/gsub0'
+Command line options '-verbose -swb_pid 912209 -q local:default -e 11 /nfs/ug/homes-1/h/hemarath/SentaurusDB/ECE335/Project_2'
+Current directory '/homes/h/hemarath'
+Project organization 'Traditional'
+Some relevant environment variables:
+	STROOT=/CMC/tools/synopsys/sentaurus_vU-2022.12/bin/..
+	STRELEASE=current
+	STROOT_LIB=/CMC/tools/synopsys/sentaurus_vU-2022.12/bin/../tcad/current/lib
+	STDB=/homes/h/hemarath/SentaurusDB
+	DATEX=/CMC/tools/synopsys/sentaurus_vU-2022.12/bin/../tcad/current/lib/datexcodes.txt
+	DISPLAY=localhost:21.0
+
+Starting swblm daemon...OK
+Project '/nfs/ug/homes-1/h/hemarath/SentaurusDB/ECE335/Project_2'
+Application mode : traditional
+Loading project tool database '/nfs/ug/homes-1/h/hemarath/SentaurusDB/ECE335/Project_2/gtooldb.tcl'
+03:43:18 Dec 06 2023 <Project_2> submitted to the batch system
+Loading global queue configuration file '/CMC/tools/synopsys/sentaurus_vU-2022.12/queues/gqueues.dat'...ok
+Loading project tree '/nfs/ug/homes-1/h/hemarath/SentaurusDB/ECE335/Project_2/gtree.dat'
+>>>>>preprocessing the project for running in intelligent mode
+Loading jobs and dependence graph '"/nfs/ug/homes-1/h/hemarath/SentaurusDB/ECE335/Project_2/gexec.cmd"'
+>>>>>>>>>> job '10' status changed from 'none' to 'queued'
+>>>>>>>>>> job '11' status changed from 'none' to 'queued'
+-----------------------------------------------------------------
+queue "local:default" - 10 11
+-----------------------------------------------------------------
+>>>>>>>>>> Initializing back-end schedulers...
+>>>>>>>> Loaded Schedulers are ... local
+local% initialize 'local' scheduler data
+>>>>> List of Active Schedulers : local
+<<<<<<<<<<
+>>>>>>>>>> job '10' status changed from 'queued' to 'ready'
+INITIALIZING PREPROCESSOR:
+Loading project tree '/nfs/ug/homes-1/h/hemarath/SentaurusDB/ECE335/Project_2/gtree.dat'
+Loading jobs and dependence graph '"/nfs/ug/homes-1/h/hemarath/SentaurusDB/ECE335/Project_2/gexec.cmd"'
+Loading project variables '/nfs/ug/homes-1/h/hemarath/SentaurusDB/ECE335/Project_2/gvars.dat'
+--Get files to preprocess...
+--Create file handlers...
+--Read the toolflow...
+--Analyze tool-file dependencies...
+--Read all nodes to preprocess...
+--Group nodes into experiments...
+--Get all variables...
+--Get all parameters...
+PREPROCESSOR SUCCESSFULLY INITIALIZED.
+PREPROCESSING STEP 1:
+Reading file /nfs/ug/homes-1/h/hemarath/SentaurusDB/ECE335/Project_2/IdVg_sat_des.cmd
+Reading file /nfs/ug/homes-1/h/hemarath/SentaurusDB/ECE335/Project_2/sdevice.par
+Include the contents of the  file 'Si.par' in the file '/nfs/ug/homes-1/h/hemarath/SentaurusDB/ECE335/Project_2/sdevice.par
+
+PREPROCESSING STEP 2:
+---------------------------------------
+Preprocessing file /nfs/ug/homes-1/h/hemarath/SentaurusDB/ECE335/Project_2/IdVg_sat_des.cmd for node 10
+'@tdr@' creates dependences with the node(s) '3'
+eTemperature
+eQuantumPotential
+eQuantumPotential
+Poisson eQuantumPotential Electron Hole
+Poisson eQuantumPotential Electron Hole eTemperature
+0.05
+Poisson eQuantumPotential Electron Hole eTemperature
+1.2
+Poisson eQuantumPotential Electron Hole eTemperature
+eTemperature
+eQuantumPotential
+eQuantumPotential
+Poisson eQuantumPotential Electron Hole
+Poisson eQuantumPotential Electron Hole eTemperature
+0.05
+Poisson eQuantumPotential Electron Hole eTemperature
+1.2
+Poisson eQuantumPotential Electron Hole eTemperature
++++Preprocessing results written to /nfs/ug/homes-1/h/hemarath/SentaurusDB/ECE335/Project_2/pp10_des.cmd
+The node '10' has dependencies to the node(s) '3'
+---------------------------------------
+Preprocessing file /nfs/ug/homes-1/h/hemarath/SentaurusDB/ECE335/Project_2/sdevice.par for node 10
++++Preprocessing results written to /nfs/ug/homes-1/h/hemarath/SentaurusDB/ECE335/Project_2/pp10_des.par
+The node '10' has dependencies to the node(s) '3'
+>>>>>>>>>> os_rm /nfs/ug/homes-1/h/hemarath/SentaurusDB/ECE335/Project_2/n10_des.job
+local% submit job 10 for local execution
+>>>>>>>>>> job '10' status changed from 'ready' to 'pending'
+local% exec /CMC/tools/synopsys/sentaurus_vU-2022.12/bin/gjob -verbose -nice 19 --max_threads 1  -job 10 -swb_pid 912209 -gsub_pid 977975 -gsub_host ug142.eecg.toronto.edu -gsub_port 34383  "/nfs/ug/homes-1/h/hemarath/SentaurusDB/ECE335/Project_2"
+>>>>>>>>>> job '10' status changed from 'pending' to 'running'
+03:43:19 Dec 06 2023     job 10 <sdevice> started on host 'ug142': "sdevice --max_threads 1  pp10_des.cmd"
+>>>>>>>>>> job '10' status changed from 'running' to 'done'
+03:45:09 Dec 06 2023 +++ job 10 <sdevice> done: exit(0)
+>>>>>>>>>> job '11' status changed from 'queued' to 'ready'
+>>>>>>>>>> os_rm /nfs/ug/homes-1/h/hemarath/SentaurusDB/ECE335/Project_2/n11_vis.job
+local% submit job 11 for local execution
+>>>>>>>>>> job '11' status changed from 'ready' to 'pending'
+local% exec /CMC/tools/synopsys/sentaurus_vU-2022.12/bin/gjob -verbose -nice 19 --threads 1 --max_threads 1  -job 11 -swb_pid 912209 -gsub_pid 977975 -gsub_host ug142.eecg.toronto.edu -gsub_port 34383  "/nfs/ug/homes-1/h/hemarath/SentaurusDB/ECE335/Project_2"
+>>>>>>>>>> job '11' status changed from 'pending' to 'running'
+03:45:10 Dec 06 2023     job 11 <svisual> started on host 'ug142': "svisual --threads 1 --max_threads 1  n11_vis.tcl"
+>>>>>>>>>> job '11' status changed from 'running' to 'done'
+03:45:29 Dec 06 2023 +++ job 11 <svisual> done: exit(0)
+
+SCHEDULING REPORT
++++ done     : 10 11
+
+03:45:31 Dec 06 2023 <Project_2> done (133 sec)
+>>>>>> Writing to status file 133
+gsub exits with status 0

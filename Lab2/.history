@@ -1,0 +1,303 @@
+18:55:27 Nov 06 2016 <project_2> submitted to the batch system
+18:55:30 Nov 06 2016     job 3 <sde> started on host 'ug230.eecg.toronto.edu': "sde -e -l n3_dvs.cmd"
+18:55:43 Nov 06 2016 +++ job 3 <sde> done: exit(0)
+18:55:45 Nov 06 2016 <project_2> done (18 sec)
+19:05:19 Nov 06 2016 <project_2> submitted to the batch system
+19:05:21 Nov 06 2016 <project_2> done (2 sec)
+19:05:47 Nov 06 2016 <project_2> submitted to the batch system
+19:05:49 Nov 06 2016 <project_2> done (2 sec)
+19:06:24 Nov 06 2016 <project_2> submitted to the batch system
+19:06:26 Nov 06 2016 <project_2> done (2 sec)
+19:06:50 Nov 06 2016 <project_2> submitted to the batch system
+19:06:50 Nov 06 2016     job 7 <sdevice> started on host 'ug230.eecg.toronto.edu': "sdevice pp7_des.cmd"
+19:08:00 Nov 06 2016 +++ job 7 <sdevice> done: exit(0)
+19:08:02 Nov 06 2016     job 10 <sdevice> started on host 'ug230.eecg.toronto.edu': "sdevice pp10_des.cmd"
+19:10:15 Nov 06 2016 +++ job 10 <sdevice> done: exit(0)
+19:10:16 Nov 06 2016     job 8 <svisual> started on host 'ug230.eecg.toronto.edu': "svisual -bx n8_vis.tcl"
+19:10:17 Nov 06 2016 --- job 8 <svisual> exited abnormally: exit()
+19:10:18 Nov 06 2016     job 11 <svisual> started on host 'ug230.eecg.toronto.edu': "svisual -bx n11_vis.tcl"
+19:10:30 Nov 06 2016 +++ job 11 <svisual> done: exit(0)
+19:10:32 Nov 06 2016 <project_2> failed
+19:14:39 Nov 06 2016 <project_2> submitted to the batch system
+19:14:40 Nov 06 2016     job 3 <sde> started on host 'ug229.eecg.toronto.edu': "sde -e -l n3_dvs.cmd"
+19:16:31 Nov 06 2016 +++ job 3 <sde> done: exit(0)
+19:16:32 Nov 06 2016     job 7 <sdevice> started on host 'ug229.eecg.toronto.edu': "sdevice pp7_des.cmd"
+19:43:13 Nov 06 2016 <project_2> aborted
+19:52:57 Nov 06 2016 <project_2> submitted to the batch system
+19:52:57 Nov 06 2016     job 3 <sde> started on host 'ug175.eecg.toronto.edu': "sde -e -l n3_dvs.cmd"
+19:53:01 Nov 06 2016 +++ job 3 <sde> done: exit(0)
+19:53:03 Nov 06 2016 <project_2> done (6 sec)
+19:53:12 Nov 06 2016 <project_2> submitted to the batch system
+19:53:13 Nov 06 2016     job 7 <sdevice> started on host 'ug175.eecg.toronto.edu': "sdevice pp7_des.cmd"
+19:54:16 Nov 06 2016 +++ job 7 <sdevice> done: exit(0)
+19:54:18 Nov 06 2016 <project_2> done (66 sec)
+19:54:53 Nov 06 2016 <project_2> submitted to the batch system
+19:54:54 Nov 06 2016     job 8 <svisual> started on host 'ug175.eecg.toronto.edu': "svisual n8_vis.tcl"
+19:55:09 Nov 06 2016 +++ job 8 <svisual> done: exit(0)
+19:55:11 Nov 06 2016 <project_2> done (18 sec)
+19:55:27 Nov 06 2016 <project_2> submitted to the batch system
+19:55:28 Nov 06 2016     job 10 <sdevice> started on host 'ug175.eecg.toronto.edu': "sdevice pp10_des.cmd"
+19:57:40 Nov 06 2016 +++ job 10 <sdevice> done: exit(0)
+19:57:42 Nov 06 2016 <project_2> done (135 sec)
+19:58:06 Nov 06 2016 <project_2> submitted to the batch system
+19:58:07 Nov 06 2016     job 11 <svisual> started on host 'ug175.eecg.toronto.edu': "svisual -bx n11_vis.tcl"
+19:58:15 Nov 06 2016 +++ job 11 <svisual> done: exit(0)
+19:58:18 Nov 06 2016 <project_2> done (12 sec)
+19:59:21 Nov 06 2016 <project_2> submitted to the batch system
+19:59:22 Nov 06 2016     job 11 <svisual> started on host 'ug175.eecg.toronto.edu': "svisual n11_vis.tcl"
+19:59:54 Nov 06 2016 +++ job 11 <svisual> done: exit(0)
+19:59:56 Nov 06 2016 <project_2> done (35 sec)
+20:00:24 Nov 06 2016 <project_2> submitted to the batch system
+20:00:24 Nov 06 2016     job 16 <sdevice> started on host 'ug175.eecg.toronto.edu': "sdevice pp16_des.cmd"
+20:08:06 Nov 06 2016 +++ job 16 <sdevice> done: exit(0)
+20:08:09 Nov 06 2016 <project_2> done (465 sec)
+20:08:27 Nov 06 2016 <project_2> submitted to the batch system
+20:08:27 Nov 06 2016     job 17 <svisual> started on host 'ug175.eecg.toronto.edu': "svisual -bx n17_vis.tcl"
+20:08:37 Nov 06 2016 +++ job 17 <svisual> done: exit(0)
+20:08:39 Nov 06 2016 <project_2> done (12 sec)
+20:09:47 Nov 06 2016 <project_2> submitted to the batch system
+20:09:48 Nov 06 2016     job 17 <svisual> started on host 'ug175.eecg.toronto.edu': "svisual n17_vis.tcl"
+20:09:49 Nov 06 2016 --- job 17 <svisual> exited abnormally: exit()
+20:09:51 Nov 06 2016 <project_2> failed
+20:10:21 Nov 06 2016 <project_2> submitted to the batch system
+20:10:22 Nov 06 2016     job 17 <svisual> started on host 'ug175.eecg.toronto.edu': "svisual n17_vis.tcl"
+20:10:23 Nov 06 2016 --- job 17 <svisual> exited abnormally: exit()
+20:10:25 Nov 06 2016 <project_2> failed
+20:11:22 Nov 06 2016 <project_2> submitted to the batch system
+20:11:23 Nov 06 2016     job 17 <svisual> started on host 'ug175.eecg.toronto.edu': "svisual -bx n17_vis.tcl"
+20:11:28 Nov 06 2016 +++ job 17 <svisual> done: exit(0)
+20:11:30 Nov 06 2016 <project_2> done (8 sec)
+20:18:40 Nov 06 2016 <project_2> submitted to the batch system
+20:18:40 Nov 06 2016     job 17 <svisual> started on host 'ug174.eecg.toronto.edu': "svisual -bx n17_vis.tcl"
+20:18:50 Nov 06 2016 +++ job 17 <svisual> done: exit(0)
+20:18:53 Nov 06 2016 <project_2> done (13 sec)
+20:19:35 Nov 06 2016 <project_2> submitted to the batch system
+20:19:36 Nov 06 2016     job 17 <svisual> started on host 'ug174.eecg.toronto.edu': "svisual n17_vis.tcl"
+20:19:59 Nov 06 2016 +++ job 17 <svisual> done: exit(0)
+20:20:01 Nov 06 2016 <project_2> done (26 sec)
+20:34:48 Nov 06 2016 <project_2> submitted to the batch system
+20:34:49 Nov 06 2016     job 3 <sde> started on host 'ug174.eecg.toronto.edu': "sde -e -l n3_dvs.cmd"
+20:34:53 Nov 06 2016 +++ job 3 <sde> done: exit(0)
+20:34:55 Nov 06 2016 <project_2> done (7 sec)
+20:35:04 Nov 06 2016 <project_2> submitted to the batch system
+20:35:04 Nov 06 2016     job 7 <sdevice> started on host 'ug174.eecg.toronto.edu': "sdevice pp7_des.cmd"
+20:36:10 Nov 06 2016 +++ job 7 <sdevice> done: exit(0)
+20:36:12 Nov 06 2016 <project_2> done (68 sec)
+20:37:01 Nov 06 2016 <project_2> submitted to the batch system
+20:37:01 Nov 06 2016     job 8 <svisual> started on host 'ug174.eecg.toronto.edu': "svisual n8_vis.tcl"
+20:37:02 Nov 06 2016 --- job 8 <svisual> exited abnormally: exit()
+20:37:04 Nov 06 2016 <project_2> failed
+20:42:41 Nov 06 2016 <project_2> submitted to the batch system
+20:42:41 Nov 06 2016     job 8 <svisual> started on host 'ug173.eecg.toronto.edu': "svisual n8_vis.tcl"
+20:43:03 Nov 06 2016 +++ job 8 <svisual> done: exit(0)
+20:43:06 Nov 06 2016 <project_2> done (25 sec)
+20:43:15 Nov 06 2016 <project_2> submitted to the batch system
+20:43:16 Nov 06 2016     job 10 <sdevice> started on host 'ug173.eecg.toronto.edu': "sdevice pp10_des.cmd"
+20:45:33 Nov 06 2016 +++ job 10 <sdevice> done: exit(0)
+20:45:35 Nov 06 2016 <project_2> done (140 sec)
+20:47:00 Nov 06 2016 <project_2> submitted to the batch system
+20:47:01 Nov 06 2016     job 11 <svisual> started on host 'ug173.eecg.toronto.edu': "svisual n11_vis.tcl"
+20:47:13 Nov 06 2016 +++ job 11 <svisual> done: exit(0)
+20:47:15 Nov 06 2016 <project_2> done (15 sec)
+20:47:30 Nov 06 2016 <project_2> submitted to the batch system
+20:47:30 Nov 06 2016     job 16 <sdevice> started on host 'ug173.eecg.toronto.edu': "sdevice pp16_des.cmd"
+20:55:13 Nov 06 2016 +++ job 16 <sdevice> done: exit(0)
+20:55:15 Nov 06 2016 <project_2> done (465 sec)
+20:55:30 Nov 06 2016 <project_2> submitted to the batch system
+20:55:30 Nov 06 2016     job 17 <svisual> started on host 'ug173.eecg.toronto.edu': "svisual n17_vis.tcl"
+20:56:01 Nov 06 2016 +++ job 17 <svisual> done: exit(0)
+20:56:04 Nov 06 2016 <project_2> done (34 sec)
+19:36:24 Dec 01 2023 <Project_2> submitted to the batch system
+19:36:26 Dec 01 2023 <Project_2> done (2 sec)
+19:39:04 Dec 01 2023 <Project_2> submitted to the batch system
+19:39:05 Dec 01 2023 <Project_2> done (1 sec)
+19:44:37 Dec 01 2023 <Project_2> submitted to the batch system
+19:44:38 Dec 01 2023     job 3 <sde> started on host 'ug142': "sde -e -l n3_dvs.cmd"
+19:44:47 Dec 01 2023 +++ job 3 <sde> done: exit(0)
+19:44:49 Dec 01 2023 <Project_2> done (12 sec)
+19:47:40 Dec 01 2023 <Project_2> submitted to the batch system
+19:47:40 Dec 01 2023     job 3 <sde> started on host 'ug142': "sde -e -l n3_dvs.cmd"
+19:47:49 Dec 01 2023 +++ job 3 <sde> done: exit(0)
+19:47:52 Dec 01 2023 <Project_2> done (12 sec)
+19:53:01 Dec 01 2023 <Project_2> submitted to the batch system
+19:53:02 Dec 01 2023     job 3 <sde> started on host 'ug142': "sde -e -l n3_dvs.cmd"
+19:53:11 Dec 01 2023 +++ job 3 <sde> done: exit(0)
+19:53:13 Dec 01 2023 <Project_2> done (12 sec)
+20:32:32 Dec 02 2023 <Project_2> submitted to the batch system
+20:32:33 Dec 02 2023 <Project_2> done (1 sec)
+20:37:18 Dec 02 2023 <Project_2> submitted to the batch system
+20:37:18 Dec 02 2023     job 7 <sdevice> started on host 'ug142': "sdevice --max_threads 1  pp7_des.cmd"
+20:37:57 Dec 02 2023 +++ job 7 <sdevice> done: exit(0)
+20:37:58 Dec 02 2023     job 8 <svisual> started on host 'ug142': "svisual --threads 1 --max_threads 1  n8_vis.tcl"
+20:38:32 Dec 02 2023 +++ job 8 <svisual> done: exit(0)
+20:38:34 Dec 02 2023 <Project_2> done (76 sec)
+20:39:21 Dec 02 2023 <Project_2> submitted to the batch system
+20:39:22 Dec 02 2023     job 8 <svisual> started on host 'ug142': "svisual --threads 1 --max_threads 1  n8_vis.tcl"
+20:41:47 Dec 02 2023 +++ job 8 <svisual> done: exit(0)
+20:41:49 Dec 02 2023 <Project_2> done (148 sec)
+20:43:58 Dec 02 2023 <Project_2> submitted to the batch system
+20:43:59 Dec 02 2023 <Project_2> done (1 sec)
+20:48:03 Dec 02 2023 <Project_2> submitted to the batch system
+20:48:05 Dec 02 2023 <Project_2> done (2 sec)
+20:55:53 Dec 02 2023 <Project_2> submitted to the batch system
+20:55:53 Dec 02 2023     job 10 <sdevice> started on host 'ug142': "sdevice --max_threads 1  pp10_des.cmd"
+20:57:14 Dec 02 2023 +++ job 10 <sdevice> done: exit(0)
+20:57:15 Dec 02 2023     job 11 <svisual> started on host 'ug142': "svisual --threads 1 --max_threads 1  n11_vis.tcl"
+21:07:30 Dec 02 2023 +++ job 11 <svisual> done: exit(0)
+21:07:32 Dec 02 2023 <Project_2> done (699 sec)
+21:48:29 Dec 02 2023 <Project_2> submitted to the batch system
+21:48:30 Dec 02 2023     job 3 <sde> started on host 'ug142': "sde -e -l n3_dvs.cmd"
+21:48:39 Dec 02 2023 +++ job 3 <sde> done: exit(0)
+21:48:41 Dec 02 2023 <Project_2> done (12 sec)
+21:49:18 Dec 02 2023 <Project_2> submitted to the batch system
+21:49:19 Dec 02 2023     job 11 <svisual> started on host 'ug142': "svisual --threads 1 --max_threads 1  n11_vis.tcl"
+21:49:39 Dec 02 2023 +++ job 11 <svisual> done: exit(0)
+21:49:41 Dec 02 2023 <Project_2> done (23 sec)
+21:54:33 Dec 02 2023 <Project_2> submitted to the batch system
+21:54:34 Dec 02 2023     job 3 <sde> started on host 'ug142': "sde -e -l n3_dvs.cmd"
+21:54:43 Dec 02 2023 +++ job 3 <sde> done: exit(0)
+21:54:45 Dec 02 2023 <Project_2> done (12 sec)
+21:55:14 Dec 02 2023 <Project_2> submitted to the batch system
+21:55:15 Dec 02 2023     job 11 <svisual> started on host 'ug142': "svisual --threads 1 --max_threads 1  n11_vis.tcl"
+21:55:31 Dec 02 2023 +++ job 11 <svisual> done: exit(0)
+21:55:33 Dec 02 2023 <Project_2> done (19 sec)
+21:56:36 Dec 02 2023 <Project_2> submitted to the batch system
+21:56:36 Dec 02 2023     job 10 <sdevice> started on host 'ug142': "sdevice --max_threads 1  pp10_des.cmd"
+21:58:08 Dec 02 2023 +++ job 10 <sdevice> done: exit(0)
+21:58:10 Dec 02 2023 <Project_2> done (94 sec)
+22:07:03 Dec 02 2023 <Project_2> submitted to the batch system
+22:07:04 Dec 02 2023     job 3 <sde> started on host 'ug142': "sde -e -l n3_dvs.cmd"
+22:07:13 Dec 02 2023 +++ job 3 <sde> done: exit(0)
+22:07:16 Dec 02 2023 <Project_2> done (13 sec)
+22:08:08 Dec 02 2023 <Project_2> submitted to the batch system
+22:08:09 Dec 02 2023     job 10 <sdevice> started on host 'ug142': "sdevice --max_threads 1  pp10_des.cmd"
+22:09:42 Dec 02 2023 +++ job 10 <sdevice> done: exit(0)
+22:09:43 Dec 02 2023     job 11 <svisual> started on host 'ug142': "svisual --threads 1 --max_threads 1  n11_vis.tcl"
+22:10:41 Dec 02 2023 +++ job 11 <svisual> done: exit(0)
+22:10:43 Dec 02 2023 <Project_2> done (155 sec)
+23:04:11 Dec 02 2023 <Project_2> submitted to the batch system
+23:04:11 Dec 02 2023     job 3 <sde> started on host 'ug142': "sde -e -l n3_dvs.cmd"
+23:04:20 Dec 02 2023 +++ job 3 <sde> done: exit(0)
+23:04:22 Dec 02 2023 <Project_2> done (11 sec)
+23:05:06 Dec 02 2023 <Project_2> submitted to the batch system
+23:05:07 Dec 02 2023     job 10 <sdevice> started on host 'ug142': "sdevice --max_threads 1  pp10_des.cmd"
+23:06:37 Dec 02 2023 +++ job 10 <sdevice> done: exit(0)
+23:06:39 Dec 02 2023 <Project_2> done (93 sec)
+23:07:12 Dec 02 2023 <Project_2> submitted to the batch system
+23:07:13 Dec 02 2023     job 11 <svisual> started on host 'ug142': "svisual --threads 1 --max_threads 1  n11_vis.tcl"
+23:07:29 Dec 02 2023 +++ job 11 <svisual> done: exit(0)
+23:07:31 Dec 02 2023 <Project_2> done (19 sec)
+23:08:07 Dec 02 2023 <Project_2> submitted to the batch system
+23:08:08 Dec 02 2023     job 10 <sdevice> started on host 'ug142': "sdevice --max_threads 1  pp10_des.cmd"
+23:09:38 Dec 02 2023 +++ job 10 <sdevice> done: exit(0)
+23:09:40 Dec 02 2023 <Project_2> done (93 sec)
+00:01:41 Dec 03 2023 <Project_2> submitted to the batch system
+00:01:42 Dec 03 2023     job 7 <sdevice> started on host 'ug142': "sdevice --max_threads 1  pp7_des.cmd"
+00:02:23 Dec 03 2023 +++ job 7 <sdevice> done: exit(0)
+00:02:24 Dec 03 2023     job 8 <svisual> started on host 'ug142': "svisual --threads 1 --max_threads 1  n8_vis.tcl"
+00:02:41 Dec 03 2023 +++ job 8 <svisual> done: exit(0)
+00:02:44 Dec 03 2023 <Project_2> done (63 sec)
+00:48:23 Dec 06 2023 <Project_2> submitted to the batch system
+00:48:24 Dec 06 2023     job 11 <svisual> started on host 'ug142': "svisual --threads 1 --max_threads 1  n11_vis.tcl"
+00:52:08 Dec 06 2023 +++ job 11 <svisual> done: exit(0)
+00:52:11 Dec 06 2023 <Project_2> done (228 sec)
+00:52:45 Dec 06 2023 <Project_2> submitted to the batch system
+00:52:45 Dec 06 2023     job 8 <svisual> started on host 'ug142': "svisual --threads 1 --max_threads 1  n8_vis.tcl"
+00:53:06 Dec 06 2023 +++ job 8 <svisual> done: exit(0)
+00:53:09 Dec 06 2023 <Project_2> done (24 sec)
+02:10:44 Dec 06 2023 <Project_2> submitted to the batch system
+02:10:46 Dec 06 2023 <Project_2> done (2 sec)
+02:11:05 Dec 06 2023 <Project_2> submitted to the batch system
+02:11:06 Dec 06 2023     job 16 <sdevice> started on host 'ug142': "sdevice --max_threads 1  pp16_des.cmd"
+02:15:42 Dec 06 2023 +++ job 16 <sdevice> done: exit(0)
+02:15:44 Dec 06 2023     job 17 <svisual> started on host 'ug142': "svisual --threads 1 --max_threads 1  n17_vis.tcl"
+02:47:23 Dec 06 2023 +++ job 17 <svisual> done: exit(0)
+02:47:25 Dec 06 2023 <Project_2> done (2180 sec)
+02:51:21 Dec 06 2023 <Project_2> submitted to the batch system
+02:51:23 Dec 06 2023 <Project_2> done (2 sec)
+02:52:43 Dec 06 2023 <Project_2> submitted to the batch system
+02:52:44 Dec 06 2023     job 8 <svisual> started on host 'ug142': "svisual --threads 1 --max_threads 1  n8_vis.tcl"
+02:53:03 Dec 06 2023 +++ job 8 <svisual> done: exit(0)
+02:53:07 Dec 06 2023 <Project_2> done (24 sec)
+02:53:28 Dec 06 2023 <Project_2> submitted to the batch system
+02:53:29 Dec 06 2023     job 11 <svisual> started on host 'ug142': "svisual --threads 1 --max_threads 1  n11_vis.tcl"
+02:53:45 Dec 06 2023 +++ job 11 <svisual> done: exit(0)
+02:53:49 Dec 06 2023 <Project_2> done (21 sec)
+02:54:18 Dec 06 2023 <Project_2> submitted to the batch system
+02:54:18 Dec 06 2023     job 3 <sde> started on host 'ug142': "sde -e -l n3_dvs.cmd"
+02:54:23 Dec 06 2023 --- job 3 <sde> exited abnormally: exit()
+02:54:25 Dec 06 2023 <Project_2> failed
+02:56:02 Dec 06 2023 <Project_2> submitted to the batch system
+02:56:03 Dec 06 2023     job 3 <sde> started on host 'ug142': "sde -e -l n3_dvs.cmd"
+02:56:12 Dec 06 2023 +++ job 3 <sde> done: exit(0)
+03:06:15 Dec 06 2023 <Project_2> done (613 sec)
+03:06:57 Dec 06 2023 <Project_2> submitted to the batch system
+03:06:58 Dec 06 2023     job 8 <svisual> started on host 'ug142': "svisual --threads 1 --max_threads 1  n8_vis.tcl"
+03:07:11 Dec 06 2023 +++ job 8 <svisual> done: exit(0)
+03:17:14 Dec 06 2023 <Project_2> done (617 sec)
+03:17:42 Dec 06 2023 <Project_2> submitted to the batch system
+03:17:42 Dec 06 2023     job 8 <svisual> started on host 'ug142': "svisual --threads 1 --max_threads 1  n8_vis.tcl"
+03:17:59 Dec 06 2023 +++ job 8 <svisual> done: exit(0)
+03:18:02 Dec 06 2023 <Project_2> done (20 sec)
+03:18:35 Dec 06 2023 <Project_2> submitted to the batch system
+03:18:36 Dec 06 2023     job 11 <svisual> started on host 'ug142': "svisual --threads 1 --max_threads 1  n11_vis.tcl"
+03:18:53 Dec 06 2023 +++ job 11 <svisual> done: exit(0)
+03:18:55 Dec 06 2023 <Project_2> done (20 sec)
+03:19:58 Dec 06 2023 <Project_2> submitted to the batch system
+03:19:59 Dec 06 2023     job 7 <sdevice> started on host 'ug142': "sdevice --max_threads 1  pp7_des.cmd"
+03:20:41 Dec 06 2023 +++ job 7 <sdevice> done: exit(0)
+03:20:42 Dec 06 2023     job 8 <svisual> started on host 'ug142': "svisual --threads 1 --max_threads 1  n8_vis.tcl"
+03:20:58 Dec 06 2023 +++ job 8 <svisual> done: exit(0)
+03:21:00 Dec 06 2023 <Project_2> done (62 sec)
+03:21:33 Dec 06 2023 <Project_2> submitted to the batch system
+03:21:33 Dec 06 2023     job 10 <sdevice> started on host 'ug142': "sdevice --max_threads 1  pp10_des.cmd"
+03:22:56 Dec 06 2023 +++ job 10 <sdevice> done: exit(0)
+03:22:57 Dec 06 2023     job 11 <svisual> started on host 'ug142': "svisual --threads 1 --max_threads 1  n11_vis.tcl"
+03:23:12 Dec 06 2023 +++ job 11 <svisual> done: exit(0)
+03:23:15 Dec 06 2023 <Project_2> done (102 sec)
+03:29:05 Dec 06 2023 <Project_2> submitted to the batch system
+03:29:06 Dec 06 2023     job 3 <sde> started on host 'ug142': "sde -e -l n3_dvs.cmd"
+03:29:16 Dec 06 2023 +++ job 3 <sde> done: exit(0)
+03:29:18 Dec 06 2023 <Project_2> done (13 sec)
+03:29:54 Dec 06 2023 <Project_2> submitted to the batch system
+03:29:54 Dec 06 2023     job 7 <sdevice> started on host 'ug142': "sdevice --max_threads 1  pp7_des.cmd"
+03:30:31 Dec 06 2023 +++ job 7 <sdevice> done: exit(0)
+03:30:32 Dec 06 2023     job 8 <svisual> started on host 'ug142': "svisual --threads 1 --max_threads 1  n8_vis.tcl"
+03:30:53 Dec 06 2023 +++ job 8 <svisual> done: exit(0)
+03:30:56 Dec 06 2023 <Project_2> done (62 sec)
+03:31:24 Dec 06 2023 <Project_2> submitted to the batch system
+03:31:25 Dec 06 2023     job 10 <sdevice> started on host 'ug142': "sdevice --max_threads 1  pp10_des.cmd"
+03:32:38 Dec 06 2023 +++ job 10 <sdevice> done: exit(0)
+03:32:39 Dec 06 2023     job 11 <svisual> started on host 'ug142': "svisual --threads 1 --max_threads 1  n11_vis.tcl"
+03:33:00 Dec 06 2023 +++ job 11 <svisual> done: exit(0)
+03:33:02 Dec 06 2023 <Project_2> done (98 sec)
+03:34:50 Dec 06 2023 <Project_2> submitted to the batch system
+03:34:50 Dec 06 2023     job 3 <sde> started on host 'ug142': "sde -e -l n3_dvs.cmd"
+03:34:59 Dec 06 2023 +++ job 3 <sde> done: exit(0)
+03:35:03 Dec 06 2023 <Project_2> done (13 sec)
+03:36:13 Dec 06 2023 <Project_2> submitted to the batch system
+03:36:14 Dec 06 2023     job 7 <sdevice> started on host 'ug142': "sdevice --max_threads 1  pp7_des.cmd"
+03:36:46 Dec 06 2023 +++ job 7 <sdevice> done: exit(0)
+03:36:47 Dec 06 2023     job 8 <svisual> started on host 'ug142': "svisual --threads 1 --max_threads 1  n8_vis.tcl"
+03:37:06 Dec 06 2023 +++ job 8 <svisual> done: exit(0)
+03:37:08 Dec 06 2023 <Project_2> done (55 sec)
+03:37:35 Dec 06 2023 <Project_2> submitted to the batch system
+03:37:36 Dec 06 2023     job 10 <sdevice> started on host 'ug142': "sdevice --max_threads 1  pp10_des.cmd"
+03:38:31 Dec 06 2023 --- job 10 <sdevice> exited abnormally: exit()
+03:38:33 Dec 06 2023 <Project_2> failed
+03:41:06 Dec 06 2023 <Project_2> submitted to the batch system
+03:41:07 Dec 06 2023     job 3 <sde> started on host 'ug142': "sde -e -l n3_dvs.cmd"
+03:41:16 Dec 06 2023 +++ job 3 <sde> done: exit(0)
+03:41:19 Dec 06 2023 <Project_2> done (13 sec)
+03:41:45 Dec 06 2023 <Project_2> submitted to the batch system
+03:41:45 Dec 06 2023     job 7 <sdevice> started on host 'ug142': "sdevice --max_threads 1  pp7_des.cmd"
+03:42:21 Dec 06 2023 +++ job 7 <sdevice> done: exit(0)
+03:42:22 Dec 06 2023     job 8 <svisual> started on host 'ug142': "svisual --threads 1 --max_threads 1  n8_vis.tcl"
+03:42:41 Dec 06 2023 +++ job 8 <svisual> done: exit(0)
+03:42:43 Dec 06 2023 <Project_2> done (58 sec)
+03:43:18 Dec 06 2023 <Project_2> submitted to the batch system
+03:43:19 Dec 06 2023     job 10 <sdevice> started on host 'ug142': "sdevice --max_threads 1  pp10_des.cmd"
+03:45:09 Dec 06 2023 +++ job 10 <sdevice> done: exit(0)
+03:45:10 Dec 06 2023     job 11 <svisual> started on host 'ug142': "svisual --threads 1 --max_threads 1  n11_vis.tcl"
+03:45:29 Dec 06 2023 +++ job 11 <svisual> done: exit(0)
+03:45:31 Dec 06 2023 <Project_2> done (133 sec)

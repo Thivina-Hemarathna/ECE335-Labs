@@ -1,0 +1,101 @@
+###########################################
+# Sentaurus Visual U-2022.12.
+# Tcl log file.
+#------------------------------------------
+# Date: Dec. 06, 2023. 03:42:33.
+# Version: 34.2.7893487 (2.7893487)
+# Mode: Interactive (GUI).
+# Mesa: enabled.
+# Hostname: ug142.
+# Machine: Linux, x86_64, x86_64.
+# Kernel: 5.10.0-26-amd64.
+###########################################
+
+  list_custom_buttons
+  remove_custom_buttons {}
+  add_custom_button -name E -desc {Edit Custom Buttons Toolbar} -script ::customButtons::actionMainMenu
+#--> E
+  add_custom_button -separator
+#--> D1
+  add_custom_button -separator
+#--> D2
+load_script_file /nfs/ug/homes-1/h/hemarath/SentaurusDB/ECE335/Project_2/n8_vis.tcl
+cd /nfs/ug/homes-1/h/hemarath/SentaurusDB/ECE335/Project_2
+  echo ext::SetInfoDef > WARNING: Procedure ext::SetInfoDef  is depreciated! Please use the procedure lib::SetInfoDef.
+# ext::SetInfoDef > WARNING: Procedure ext::SetInfoDef  is depreciated! Please use the procedure lib::SetInfoDef.
+  echo #########################################
+# #########################################
+  echo Plotting Id-Vg (lin) curve
+# Plotting Id-Vg (lin) curve
+  echo #########################################
+# #########################################
+  load_file IdVg_n7_des.plt -name PLT_Lin(nMOS_8)
+#--> PLT_Lin(nMOS_8)
+  list_plots
+  create_plot -name Plot_IdVg -1d
+  select_plots {Plot_IdVg}
+#--> Plot_IdVg
+#--> Plot_IdVg
+  select_plots {Plot_IdVg}
+#--> Plot_IdVg
+  get_variable_data -dataset PLT_Lin(nMOS_8) {gate OuterVoltage}
+#--> 0 0.04 0.08 0.12 0.16 0.2 0.24 0.28 0.32 0.36 0.4 0.44 0.48 0.52 0.56 0.6 0.64 0.68 0.72 0.76 0.8 0.84 0.88 0.92 0.96 1 1.04 1.08 1.12 1.16 1.2
+  get_variable_data -dataset PLT_Lin(nMOS_8) {drain TotalCurrent}
+#--> 1.10958021662e-15 1.17541752949e-15 1.30527495439e-15 1.56366133528e-15 2.08175671789e-15 3.12768342257e-15 5.25287797759e-15 9.59398267595e-15 1.85013624175e-14 3.68460702906e-14 7.47378156481e-14 1.53177808952e-13 3.15954641834e-13 6.53640831893e-13 1.35459318709e-12 2.80903901178e-12 5.82396992029e-12 1.20636393226e-11 2.49483563666e-11 5.14778241697e-11 1.0590504573e-10 2.17080166205e-10 4.42992390092e-10 8.9924371678e-10 1.81405736267e-09 3.63284278631e-09 7.21309653393e-09 1.41790350316e-08 2.75479560875e-08 5.27963853171e-08 9.95926802234e-08
+  create_variable -dataset PLT_Lin(nMOS_8) -name absId -values {1.10958e-15 1.17542e-15 1.30527e-15 1.56366e-15 2.08176e-15 3.12768e-15 5.25288e-15 9.59398e-15 1.85014e-14 3.68461e-14 7.47378e-14 1.53178e-13 3.15955e-13 6.53641e-13 1.35459e-12 2.80904e-12 5.82397e-12 1.20636e-11 2.49484e-11 5.14778e-11 1.05905e-10 2.1708e-10 4.42992e-10 8.99244e-10 1.81406e-09 3.63284e-09 7.2131e-09 1.4179e-08 2.7548e-08 5.27964e-08 9.95927e-08}
+#--> absId
+  create_curve -axisX {gate OuterVoltage} -axisY absId -dataset {PLT_Lin(nMOS_8)} -name IdVgLin(nMOS_8) -plot Plot_IdVg
+#--> IdVgLin(nMOS_8)
+  set_curve_prop {IdVgLin(nMOS_8)} -plot Plot_IdVg -label "IdVg(Lin) (nMOS Lg=0.045 Vd=0.05)" -color #0000ff -line_style solid -line_width 3
+#--> 0
+  set_plot_prop -plot {Plot_IdVg} -title "I<sub>d</sub>-V<sub>gs</sub> Curve" -title_font_size 20
+#--> 0
+  set_axis_prop -plot Plot_IdVg -axis x -title "Gate Voltage \[V\]" -title_font_size 16 -scale_font_size 14 -type linear
+# WARNING:The parameter 'scale_font_size' is deprecated. Please, use the parameter 'label_font_size'  instead.
+#--> 0
+  set_axis_prop -plot Plot_IdVg -axis y -title "Drain Current \[A/<greek>m</greek>m\]" -title_font_size 16 -scale_font_size 14 -type log
+# WARNING:The parameter 'scale_font_size' is deprecated. Please, use the parameter 'label_font_size'  instead.
+#--> 0
+  set_legend_prop -plot Plot_IdVg -font_size 12 -location bottom_right -font_att bold
+# WARNING:The parameter 'font_att' is deprecated. Please, use the parameter 'label_font_att' for 1D and 'title_font_att' for 2D or 3D  instead.
+# WARNING:The parameter 'font_size' is deprecated. Please, use the parameter 'label_font_size'  instead.
+#--> 0
+  echo #########################################
+# #########################################
+  echo Extracting parameters from Id-Vgs (lin) curve
+# Extracting parameters from Id-Vgs (lin) curve
+  echo #########################################
+# #########################################
+  echo Internal Procedure > ext::Getxomt > Max gm is at last bias point
+# Internal Procedure > ext::Getxomt > Max gm is at last bias point
+  echo DOE: Vtgm 1.115
+# DOE: Vtgm 1.115
+  echo
+# 
+  echo DOE: VtiLin x
+# DOE: VtiLin x
+  echo
+# 
+  echo ext::ExtractVti: WARNING: Vti (Vg at io=2.222e-06): leakage current higher than io!
+# ext::ExtractVti: WARNING: Vti (Vg at io=2.222e-06): leakage current higher than io!
+  echo ext::ExtractExtremum> Extracting maxima
+# ext::ExtractExtremum> Extracting maxima
+  echo DOE: IdLin 9.959e-08
+# DOE: IdLin 9.959e-08
+  echo
+# 
+  echo DOE: SSlin 1449.641
+# DOE: SSlin 1449.641
+  echo
+# 
+  echo Internal Procedure > ext::Getxomt > Max gm is at last bias point
+# Internal Procedure > ext::Getxomt > Max gm is at last bias point
+  echo DOE: gmLin 1.170e-06
+# DOE: gmLin 1.170e-06
+  echo
+# 
+  echo Vt (Max gm method) is 1.115 V
+# Vt (Max gm method) is 1.115 V
+#!-> Error: load_script_file: '/nfs/ug/homes-1/h/hemarath/SentaurusDB/ECE335/Project_2/n8_vis.tcl': expected floating-point number but got "x". (line 61).
+exit 0
+ 
