@@ -1,0 +1,115 @@
+
+****************************************************************************
+***                       Sentaurus Workbench gsub                       ***
+***                          Version U-2022.12                           ***
+***                      (2.7886616, x86_64, Linux)                      ***
+***                                                                      ***
+***                Copyright (c) 1994-2022 Synopsys, Inc.                ***
+***                                                                      ***
+***  This software and the associated documentation are confidential     ***
+***  and proprietary to Synopsys, Inc.  Your use or disclosure of this   ***
+***  software is subject to the terms and conditions of a written        ***
+***  license agreement between you, or your company, and Synopsys, Inc.  ***
+****************************************************************************
+
+gsub is running on host 'ug142.eecg.toronto.edu' by user 'hemarath'
+Binary '/CMC/tools/synopsys/sentaurus_vU-2022.12/bin/../tcad/current/linux64/bin/../lib/gsub0'
+Command line options '-verbose -swb_pid 1784752 -q local:default -e 32 /nfs/ug/homes-1/h/hemarath/SentaurusDB/ECE335/ECE335_Project_1_2023/ECE335_Project_1_2023'
+Current directory '/homes/h/hemarath'
+Project organization 'Traditional'
+Some relevant environment variables:
+	STROOT=/CMC/tools/synopsys/sentaurus_vU-2022.12/bin/..
+	STRELEASE=current
+	STROOT_LIB=/CMC/tools/synopsys/sentaurus_vU-2022.12/bin/../tcad/current/lib
+	STDB=/homes/h/hemarath/SentaurusDB
+	DATEX=/CMC/tools/synopsys/sentaurus_vU-2022.12/bin/../tcad/current/lib/datexcodes.txt
+	DISPLAY=localhost:21.0
+
+Starting swblm daemon...OK
+Project '/nfs/ug/homes-1/h/hemarath/SentaurusDB/ECE335/ECE335_Project_1_2023/ECE335_Project_1_2023'
+Application mode : traditional
+22:58:16 Nov 18 2023 <ECE335_Project_1_2023> submitted to the batch system
+Loading global queue configuration file '/CMC/tools/synopsys/sentaurus_vU-2022.12/queues/gqueues.dat'...ok
+Loading project tree '/nfs/ug/homes-1/h/hemarath/SentaurusDB/ECE335/ECE335_Project_1_2023/ECE335_Project_1_2023/gtree.dat'
+>>>>> Preprocessing the project to run in normal mode
+Loading jobs and dependence graph '"/nfs/ug/homes-1/h/hemarath/SentaurusDB/ECE335/ECE335_Project_1_2023/ECE335_Project_1_2023/gexec.cmd"'
+INITIALIZING PREPROCESSOR:
+Loading project tree '/nfs/ug/homes-1/h/hemarath/SentaurusDB/ECE335/ECE335_Project_1_2023/ECE335_Project_1_2023/gtree.dat'
+Loading project variables '/nfs/ug/homes-1/h/hemarath/SentaurusDB/ECE335/ECE335_Project_1_2023/ECE335_Project_1_2023/gvars.dat'
+--Get files to preprocess...
+--Create file handlers...
+--Read the toolflow...
+--Analyze tool-file dependencies...
+--Read all nodes to preprocess...
+--Group nodes into experiments...
+--Get all variables...
+--Get all parameters...
+PREPROCESSOR SUCCESSFULLY INITIALIZED.
+PREPROCESSING STEP 1:
+Reading file /nfs/ug/homes-1/h/hemarath/SentaurusDB/ECE335/ECE335_Project_1_2023/ECE335_Project_1_2023/sde_dvs.cmd
+Reading file /nfs/ug/homes-1/h/hemarath/SentaurusDB/ECE335/ECE335_Project_1_2023/ECE335_Project_1_2023/sdevice_des.cmd
+Reading file /nfs/ug/homes-1/h/hemarath/SentaurusDB/ECE335/ECE335_Project_1_2023/ECE335_Project_1_2023/sdevice.par
+Reading file /nfs/ug/homes-1/h/hemarath/SentaurusDB/ECE335/ECE335_Project_1_2023/ECE335_Project_1_2023/sdevice1_des.cmd
+PREPROCESSING STEP 2:
+---------------------------------------
+Preprocessing file /nfs/ug/homes-1/h/hemarath/SentaurusDB/ECE335/ECE335_Project_1_2023/ECE335_Project_1_2023/sdevice_des.cmd for node 32
+'@previous@' creates dependences with the node(s) '1'
+'@tdr@' creates dependences with the node(s) '1'
+---------------------------------------
+Preprocessing file /nfs/ug/homes-1/h/hemarath/SentaurusDB/ECE335/ECE335_Project_1_2023/ECE335_Project_1_2023/sdevice.par for node 32
++++Node successfully preprocessed+++
+The node '32' has dependencies to the node(s) '1'
+Writing 'gexec.cmd'
+Loading jobs and dependence graph '"/nfs/ug/homes-1/h/hemarath/SentaurusDB/ECE335/ECE335_Project_1_2023/ECE335_Project_1_2023/gexec.cmd"'
+>>>>>>>>>> job '32' status changed from 'none' to 'queued'
+-----------------------------------------------------------------
+queue "local:default" - 32
+-----------------------------------------------------------------
+>>>>>>>>>> Initializing back-end schedulers...
+>>>>>>>> Loaded Schedulers are ... local
+local% initialize 'local' scheduler data
+>>>>> List of Active Schedulers : local
+<<<<<<<<<<
+>>>>>>>>>> job '32' status changed from 'queued' to 'ready'
+INITIALIZING PREPROCESSOR:
+Loading project tree '/nfs/ug/homes-1/h/hemarath/SentaurusDB/ECE335/ECE335_Project_1_2023/ECE335_Project_1_2023/gtree.dat'
+Loading jobs and dependence graph '"/nfs/ug/homes-1/h/hemarath/SentaurusDB/ECE335/ECE335_Project_1_2023/ECE335_Project_1_2023/gexec.cmd"'
+Loading project variables '/nfs/ug/homes-1/h/hemarath/SentaurusDB/ECE335/ECE335_Project_1_2023/ECE335_Project_1_2023/gvars.dat'
+--Get files to preprocess...
+--Create file handlers...
+--Read the toolflow...
+--Analyze tool-file dependencies...
+--Read all nodes to preprocess...
+--Group nodes into experiments...
+--Get all variables...
+--Get all parameters...
+PREPROCESSOR SUCCESSFULLY INITIALIZED.
+PREPROCESSING STEP 1:
+Reading file /nfs/ug/homes-1/h/hemarath/SentaurusDB/ECE335/ECE335_Project_1_2023/ECE335_Project_1_2023/sdevice_des.cmd
+Reading file /nfs/ug/homes-1/h/hemarath/SentaurusDB/ECE335/ECE335_Project_1_2023/ECE335_Project_1_2023/sdevice.par
+PREPROCESSING STEP 2:
+---------------------------------------
+Preprocessing file /nfs/ug/homes-1/h/hemarath/SentaurusDB/ECE335/ECE335_Project_1_2023/ECE335_Project_1_2023/sdevice_des.cmd for node 32
+'@previous@' creates dependences with the node(s) '1'
+'@tdr@' creates dependences with the node(s) '1'
++++Preprocessing results written to /nfs/ug/homes-1/h/hemarath/SentaurusDB/ECE335/ECE335_Project_1_2023/ECE335_Project_1_2023/pp32_des.cmd
+The node '32' has dependencies to the node(s) '1'
+---------------------------------------
+Preprocessing file /nfs/ug/homes-1/h/hemarath/SentaurusDB/ECE335/ECE335_Project_1_2023/ECE335_Project_1_2023/sdevice.par for node 32
++++Preprocessing results written to /nfs/ug/homes-1/h/hemarath/SentaurusDB/ECE335/ECE335_Project_1_2023/ECE335_Project_1_2023/pp32_des.par
+The node '32' has dependencies to the node(s) '1'
+>>>>>>>>>> os_rm /nfs/ug/homes-1/h/hemarath/SentaurusDB/ECE335/ECE335_Project_1_2023/ECE335_Project_1_2023/n32_des.job
+local% submit job 32 for local execution
+>>>>>>>>>> job '32' status changed from 'ready' to 'pending'
+local% exec /CMC/tools/synopsys/sentaurus_vU-2022.12/bin/gjob -verbose -nice 19 --max_threads 1  -job 32 -swb_pid 1784752 -gsub_pid 1846716 -gsub_host ug142.eecg.toronto.edu -gsub_port 43225  "/nfs/ug/homes-1/h/hemarath/SentaurusDB/ECE335/ECE335_Project_1_2023/ECE335_Project_1_2023"
+>>>>>>>>>> job '32' status changed from 'pending' to 'running'
+22:58:17 Nov 18 2023     job 32 <sdevice> started on host 'ug142': "sdevice --max_threads 1  pp32_des.cmd"
+>>>>>>>>>> job '32' status changed from 'running' to 'done'
+22:58:47 Nov 18 2023 +++ job 32 <sdevice> done: exit(0)
+
+SCHEDULING REPORT
++++ done     : 32
+
+22:58:49 Nov 18 2023 <ECE335_Project_1_2023> done (33 sec)
+>>>>>> Writing to status file 33
+gsub exits with status 0

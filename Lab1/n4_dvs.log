@@ -1,0 +1,62 @@
+Evaluating file n4_dvs.cmd
+---> (define totalthickness 6)
+totalthickness
+---> (define totalwidth 1)
+totalwidth
+---> (sdegeo:set-default-boolean BAB)
+"ABA"
+---> (sdegeo:create-rectangle (position 0.0 0.0 0.0) (position totalwidth 2 0.0) Silicon psub)
+#[body 5 1]
+---> (sdegeo:create-rectangle (position 0.0 2 0.0) (position totalwidth totalthickness 0.0) Silicon nsub)
+#[body 6 1]
+---> (sdegeo:define-contact-set electrode1 4 (color:rgb 1 0 0) ##)
+()
+---> (sdegeo:define-2d-contact (find-edge-id (position 0.2 0.0 0.0)) electrode1)
+"Obsolete Scheme command: sdegeo:define-2d-contact. Please update your input script and replace it with sdegeo:set-contact."
+---> (sdegeo:define-contact-set electrode2 4 (color:rgb 1 0 0) ##)
+()
+---> (sdegeo:define-2d-contact (find-edge-id (position 0.2 totalthickness 0.0)) electrode2)
+"Obsolete Scheme command: sdegeo:define-2d-contact. Please update your input script and replace it with sdegeo:set-contact."
+---> (sdedr:define-refinement-window win.drift Rectangle (position 0.0 0.0 0.0) (position totalwidth totalthickness 0.0))
+#[body 15 1]
+---> (define NAME pA)
+NAME
+---> (sdedr:define-refinement-window (string-append RW. NAME) Rectangle (position 0.0 2 0.0) (position totalwidth totalthickness 0.0))
+#[body 16 1]
+---> (sdedr:define-constant-profile (string-append DC. NAME) BoronActiveConcentration 7e+18)
+#t
+---> (sdedr:define-constant-profile-placement (string-append CPP. NAME) (string-append DC. NAME) (string-append RW. NAME) 0 replace)
+#t
+---> (define NAME nS)
+NAME
+---> (sdedr:define-refinement-window (string-append RW. NAME) Rectangle (position 0.0 0 0.0) (position totalwidth 2 0.0))
+#[body 17 1]
+---> (sdedr:define-constant-profile (string-append DC. NAME) ArsenicActiveConcentration 2e+15)
+#t
+---> (sdedr:define-constant-profile-placement (string-append CPP. NAME) (string-append DC. NAME) (string-append RW. NAME) 0 replace)
+#t
+---> (sdedr:define-refinement-window win.global Rectangle (position 0 0 0) (position totalwidth totalthickness 0))
+#[body 18 1]
+---> (sdedr:define-refinement-size RefDef.global 0.5 0.5 0.1 0.1)
+#t
+---> (sdedr:define-refinement-function RefDef.global DopingConcentration MaxTransDiff 1)
+#t
+---> (sdedr:define-refinement-function RefDef.global MaxLenInt Silicon Oxide 0.1 1.5 Doubleside)
+#t
+---> (sdedr:define-refinement-placement Place.global RefDef.global win.global)
+#t
+---> (sde:build-mesh snmesh  n4)
+#t
+---> #[end-of-file]
+"************************************************************************"
+"Sentaurus Structure Editor Obsolete commands"
+"Obsolete Scheme command: sdegeo:define-2d-contact. Please update your input script and replace it with sdegeo:set-contact."
+"Obsolete Scheme command: sdegeo:define-2d-contact. Please update your input script and replace it with sdegeo:set-contact."
+"************************************************************************"
+"************************************************************************"
+"Sentaurus Structure Editor "
+"Start Time:    Thu Sep 14 15:54:52 2023"
+"End   Time:    Thu Sep 14 15:54:54 2023"
+"Total Execution Time (sec):    2"
+"Total System calls Time (sec): 0"
+"************************************************************************"

@@ -1,0 +1,57 @@
+
+****************************************************************************
+***                       Sentaurus Workbench gjob                       ***
+***                          Version U-2022.12                           ***
+***                      (2.7886616, x86_64, Linux)                      ***
+***                                                                      ***
+***                Copyright (c) 1994-2022 Synopsys, Inc.                ***
+***                                                                      ***
+***  This software and the associated documentation are confidential     ***
+***  and proprietary to Synopsys, Inc.  Your use or disclosure of this   ***
+***  software is subject to the terms and conditions of a written        ***
+***  license agreement between you, or your company, and Synopsys, Inc.  ***
+****************************************************************************
+
+gjob is running on host 'ug142.eecg.toronto.edu' by user 'hunter38'
+Binary '/CMC/tools/synopsys/sentaurus_vU-2022.12/bin/../tcad/current/linux64/bin/gjob'
+Command line options '-verbose -nice 19 -job 4 -swb_pid 548648 -gsub_pid 659987 -gsub_host ug142.eecg.toronto.edu -gsub_port 39187 /nfs/ug/homes-1/h/hunter38/ECE335/ECE335_Project_1_start'
+Current directory '/nfs/ug/homes-1/h/hunter38/ECE335/ECE335_Project_1_start'
+Project organization 'Traditional'
+Some relevant environment variables:
+	STROOT=/CMC/tools/synopsys/sentaurus_vU-2022.12/bin/..
+	STRELEASE=current
+	STROOT_LIB=/CMC/tools/synopsys/sentaurus_vU-2022.12/bin/../tcad/current/lib
+	STDB=/homes/h/hunter38/SentaurusDB
+	DATEX=/CMC/tools/synopsys/sentaurus_vU-2022.12/bin/../tcad/current/lib/datexcodes.txt
+	DISPLAY=localhost:20.0
+
+Project '/nfs/ug/homes-1/h/hunter38/ECE335/ECE335_Project_1_start'
+INITIALIZING PREPROCESSOR:
+Application mode : traditional
+Loading project tree '/nfs/ug/homes-1/h/hunter38/ECE335/ECE335_Project_1_start/gtree.dat'
+Loading jobs and dependence graph '"/nfs/ug/homes-1/h/hunter38/ECE335/ECE335_Project_1_start/gexec.cmd"'
+Loading project variables '/nfs/ug/homes-1/h/hunter38/ECE335/ECE335_Project_1_start/gvars.dat'
+--Get files to preprocess...
+--Create file handlers...
+--Read the toolflow...
+--Analyze tool-file dependencies...
+--Read all nodes to preprocess...
+--Group nodes into experiments...
+--Get all variables...
+--Get all parameters...
+PREPROCESSOR SUCCESSFULLY INITIALIZED.
+PREPROCESSING STEP 1:
+Reading file /nfs/ug/homes-1/h/hunter38/ECE335/ECE335_Project_1_start/sde_dvs.cmd
+PREPROCESSING STEP 2:
+---------------------------------------
+Preprocessing file /nfs/ug/homes-1/h/hunter38/ECE335/ECE335_Project_1_start/sde_dvs.cmd for node 4
++++Preprocessing results written to /nfs/ug/homes-1/h/hunter38/ECE335/ECE335_Project_1_start/pp4_dvs.cmd
+Start Simulation section
+15:54:50 Sep 14 2023     job 4 <sde> started on host 'ug142': "sde -e -l n4_dvs.cmd"
+15:54:54 Sep 14 2023 +++ job 4 <sde> done: exit(0)
+End Simulation section
+Start Epilogue section
+15:54:54 Sep 14 2023 *** job 4 pre/post execution: eval " gjob::find_extracted_vars "/nfs/ug/homes-1/h/hunter38/ECE335/ECE335_Project_1_start" n4_dvs.out 4 "
+End Epilogue section
+Job succeeded
+gjob exits with status 0

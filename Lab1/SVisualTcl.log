@@ -1,0 +1,98 @@
+###########################################
+# Sentaurus Visual U-2022.12.
+# Tcl log file.
+#------------------------------------------
+# Date: Nov. 18, 2023. 20:59:01.
+# Version: 34.2.7893487 (2.7893487)
+# Mode: Interactive (GUI).
+# Mesa: enabled.
+# Hostname: ug142.
+# Machine: Linux, x86_64, x86_64.
+# Kernel: 5.10.0-26-amd64.
+###########################################
+
+load_file /nfs/ug/homes-1/h/hemarath/SentaurusDB/ECE335/ECE335_Project_1_2023/ECE335_Project_1_2023/n1_bnd.tdr -fod
+create_plot -dataset n1_bnd
+select_plots {Plot_n1_bnd}
+#-> Plot_n1_bnd
+#-> Plot_n1_bnd
+#-> n1_bnd
+load_file /nfs/ug/homes-1/h/hemarath/SentaurusDB/ECE335/ECE335_Project_1_2023/ECE335_Project_1_2023/n1_msh.tdr -fod
+create_plot -dataset n1_msh
+select_plots {Plot_n1_msh}
+#-> Plot_n1_msh
+#-> Plot_n1_msh
+#-> n1_msh
+create_cutline -plot Plot_n1_msh -type x -at 0.991213
+#-> C1(n1_msh)
+create_plot -dataset C1(n1_msh) -1d
+select_plots {Plot_C1(n1_msh)}
+#-> Plot_C1(n1_msh)
+#-> Plot_C1(n1_msh)
+set_axis_prop -plot Plot_C1(n1_msh) -axis y -type log
+#-> 0
+create_curve -axisX Y -axisY DopingConcentration -dataset {C1(n1_msh)} -plot Plot_C1(n1_msh)
+#-> Curve_1
+set_axis_prop -plot Plot_C1(n1_msh) -axis x -range {-0.356751 10.1}
+#-> 0
+set_plot_prop -plot {Plot_C1(n1_msh)} -title "C1(n1_msh) (X = 1.00  )"
+#-> 0
+set_plot_prop -plot {Plot_C1(n1_msh)} -title_font_family arial -title_font_size 10 -title_font_color #000000 -title_font_att normal
+#-> 0
+set_plot_prop -plot {Plot_C1(n1_msh)} -title "C1(n1_msh) (X = 1.00  )"
+#-> 0
+select_plots {Plot_n1_msh}
+#-> Plot_n1_msh
+set_legend_prop -plot Plot_n1_msh -position {0.8 0.5} -size {0.244635 0.3}
+#-> 0
+set_legend_prop -plot Plot_n1_msh -position {0.490377 0.45122} -size {0.244635 0.3}
+#-> 0
+set_plot_prop -plot {Plot_n1_msh} -title "PN junction"
+#-> 0
+export_view /homes/h/hemarath/Documents/plots/p2.png -plots {Plot_n1_msh} -format png
+#-> 0
+load_file /homes/h/hemarath/SentaurusDB/ECE335/ECE335_Project_1_2023/ECE335_Project_1_2023/n32_des.plt
+create_plot -1d
+select_plots {Plot_1}
+#-> Plot_1
+#-> Plot_1
+#-> n32_des
+load_file /homes/h/hemarath/SentaurusDB/ECE335/ECE335_Project_1_2023/ECE335_Project_1_2023/n32_des.tdr -fod
+create_plot -dataset n32_des_2
+select_plots {Plot_n32_des_2}
+#-> Plot_n32_des_2
+#-> Plot_n32_des_2
+#-> n32_des_2
+create_cutline -plot Plot_n32_des_2 -type x -at 1.02468
+#-> C1(n32_des_2)
+set_axis_prop -plot Plot_C1(n1_msh) -axis y -type log
+#-> 0
+create_curve -axisX Y -axisY DopingConcentration -dataset {C1(n32_des_2)} -plot Plot_C1(n1_msh)
+#-> Curve_2
+set_axis_prop -plot Plot_C1(n1_msh) -axis x -range {-0.1 10.1}
+#-> 0
+select_plots {Plot_1}
+#-> Plot_1
+set_band_diagram {Plot_1}
+#-> 0
+select_plots {Plot_n32_des_2}
+#-> Plot_n32_des_2
+select_plots {Plot_1}
+#-> Plot_1
+create_curve -axisX {electrode_2 OuterVoltage} -axisY {electrode_2 TotalCurrent} -dataset {n32_des} -plot Plot_1
+#-> Curve_1
+set_curve_prop {hfp} -plot Plot_1 -hide
+#-> 0
+set_curve_prop {hfn} -plot Plot_1 -hide
+#-> 0
+set_curve_prop {Ev} -plot Plot_1 -hide
+#-> 0
+set_curve_prop {Ec} -plot Plot_1 -hide
+#-> 0
+zoom_plot -plot Plot_1 -factor 0.9
+set_axis_prop -plot Plot_1 -axis y -type log
+#-> 0
+set_axis_prop -plot Plot_1 -axis x -type log
+#-> 0
+exit 0
+ 

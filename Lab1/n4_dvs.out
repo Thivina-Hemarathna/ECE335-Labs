@@ -1,0 +1,177 @@
+****************************************************************************
+***                      Sentaurus Structure Editor                      ***
+***                          Version U-2022.12                           ***
+***                      (2.7886616, x86_64, Linux)                      ***
+***                                                                      ***
+***               Copyright (C) 1994-2022 Synopsys, Inc.                 ***
+***        Portions of this software are owned by Spatial Corp.          ***
+***            Copyright (C) 1986-2022. All Rights Reserved.             ***
+***                                                                      ***
+***  This software and the associated documentation are confidential     ***
+***  and proprietary to Synopsys, Inc.  Your use or disclosure of this   ***
+***  software is subject to the terms and conditions of a written        ***
+***  license agreement between you, or your company, and Synopsys, Inc.  ***
+****************************************************************************
+
+Compiled Wed Nov  9 19:09:55 PST 2022 on: swe-vm-kcr-tcad02
+Running on: ug142
+Hardware type: x86_64
+OS name: Linux
+OS release: 5.10.0-25-amd64
+OS version: #1 SMP Debian 5.10.191-1 (2023-08-16)
+Process ID: 663591
+
+Warning: License feature sde_all is about to expire in 6 days
+Warning: License feature sde_all is about to expire in 6 days
+version #3 done.
+Evaluating file n4_dvs.cmd
+
+---> (define totalthickness 6)
+
+---> (define totalwidth 1)
+
+---> (sdegeo:set-default-boolean BAB)
+
+---> (sdegeo:create-rectangle (position 0.0 0.0 0.0) (position totalwidth 2 0.0) Silicon psub)
+
+---> (sdegeo:create-rectangle (position 0.0 2 0.0) (position totalwidth totalthickness 0.0) Silicon nsub)
+
+---> (sdegeo:define-contact-set electrode1 4 (color:rgb 1 0 0) ##)
+
+---> (sdegeo:define-2d-contact (find-edge-id (position 0.2 0.0 0.0)) electrode1)
+
+Obsolete Scheme command: sdegeo:define-2d-contact. Please update your input script and replace it with sdegeo:set-contact.
+---> (sdegeo:define-contact-set electrode2 4 (color:rgb 1 0 0) ##)
+
+---> (sdegeo:define-2d-contact (find-edge-id (position 0.2 totalthickness 0.0)) electrode2)
+
+Obsolete Scheme command: sdegeo:define-2d-contact. Please update your input script and replace it with sdegeo:set-contact.
+---> (sdedr:define-refinement-window win.drift Rectangle (position 0.0 0.0 0.0) (position totalwidth totalthickness 0.0))
+
+---> (define NAME pA)
+
+---> (sdedr:define-refinement-window (string-append RW. NAME) Rectangle (position 0.0 2 0.0) (position totalwidth totalthickness 0.0))
+
+---> (sdedr:define-constant-profile (string-append DC. NAME) BoronActiveConcentration 7e+18)
+
+---> (sdedr:define-constant-profile-placement (string-append CPP. NAME) (string-append DC. NAME) (string-append RW. NAME) 0 replace)
+
+---> (define NAME nS)
+
+---> (sdedr:define-refinement-window (string-append RW. NAME) Rectangle (position 0.0 0 0.0) (position totalwidth 2 0.0))
+
+---> (sdedr:define-constant-profile (string-append DC. NAME) ArsenicActiveConcentration 2e+15)
+
+---> (sdedr:define-constant-profile-placement (string-append CPP. NAME) (string-append DC. NAME) (string-append RW. NAME) 0 replace)
+
+---> (sdedr:define-refinement-window win.global Rectangle (position 0 0 0) (position totalwidth totalthickness 0))
+
+---> (sdedr:define-refinement-size RefDef.global 0.5 0.5 0.1 0.1)
+
+---> (sdedr:define-refinement-function RefDef.global DopingConcentration MaxTransDiff 1)
+
+---> (sdedr:define-refinement-function RefDef.global MaxLenInt Silicon Oxide 0.1 1.5 Doubleside)
+
+---> (sdedr:define-refinement-placement Place.global RefDef.global win.global)
+
+---> (sde:build-mesh snmesh  n4)
+
+****************************************************************************
+***                            Sentaurus Mesh                            ***
+***                          Version U-2022.12                           ***
+***                      (2.7893487, x86_64, Linux)                      ***
+***                                                                      ***
+***                       Copyright (C) 2005-2022                        ***
+***                            Synopsys, Inc.                            ***
+***                                                                      ***
+***  This software and the associated documentation are confidential     ***
+***  and proprietary to Synopsys, Inc.  Your use or disclosure of this   ***
+***  software is subject to the terms and conditions of a written        ***
+***  license agreement between you, or your company, and Synopsys, Inc.  ***
+****************************************************************************
+
+Compiled Mon Nov 14 18:34:06 PST 2022 on: swe-vm-kcr-tcad02
+Running on: ug142
+Hardware type: x86_64
+OS name: Linux
+OS release: 5.10.0-25-amd64
+OS version: #1 SMP Debian 5.10.191-1 (2023-08-16)
+Process ID: 665013
+
+Flags used:
+
+Warning: License feature Mesh2D_all is about to expire in 6 days
+** Generating 2d grid **
+
+Creating binary tree...done.
+Imprinting binary tree on the boundary...done.
+Optimizing boundary nodes...done.
+
+Number of vertices after binary tree generation : 
+  54 (tree) + 41 (boundary)
+
+
+=================================  brep2d quality  =====================================
+minAngle: 90  [near (-0 2)] at region=psub
+nVerts = 41  nTris = 42  nRegs = 4
+bmin: -0 -0
+bmax: 1 6
+min area: 0.0625  max area: 0.5  min edge length : 0.0625
+total area  : 15 interface area: 1
+total volume: 6
+Conformal? true
+Are all boundaries on bbox? true
+==================================================================================
+** Delaunizing the mesh **
+
+Creating delaunizer input...done.
+Solving edges...done 
+Optimizing elements...done. (61 vertices)
+Fixing diagonals...done.
+
+The final mesh has: 
+      57 points.
+      72 elements.
+       4 regions.
+Max. connectivity = 6 located at (0.5;0.375)
+
+
+==============================  tri-grid quality  ================================
+    0  10  20  30  40  50  60  70  80  90 100 110 120 130 140 150 160 170 180
+ %        4   2      28  28       2   4  33                                
+---------------------------------------------------------------------------------
+minAngle: 7.12502  maxAngle: 90
+nVerts = 57  nTris = 72  nMats = 2
+max connectivity (tris per node): 6
+bmin: -0 -0
+bmax: 1 6
+min edgeLength: 0.0625  [near (0.5 2.03125)]
+min volume: 0.015625  max volume: 0.09375  Total volume: 6
+bbox  volume: 6
+Are all boundaries on bbox? true
+=================================================================================
+
+Smallest region: psub  Total volume: 2
+Interpolating data...done.
+Saving file n4_msh.tdr...done.
+
+===============================  Timer Report===================================
+              Total Mesh Generation Time:    0.0113s       100%
+                       Rate of #Vertices:  5.03e+03
+                          Rate of #Edges:  8.48e+03
+                          Rate of #Faces:  6.36e+03
+                       Rate of #Elements:         0
+
+                            Time Covered:         0s         0%
+
+
+"Meshing successful"
+---> #[end-of-file]
+
+"************************************************************************"
+"Sentaurus Structure Editor "
+"Start Time:    Thu Sep 14 15:54:52 2023"
+"End   Time:    Thu Sep 14 15:54:54 2023"
+"Total Execution Time (sec):    2"
+"Total System calls Time (sec): 0"
+"************************************************************************"

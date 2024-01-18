@@ -1,0 +1,77 @@
+
+****************************************************************************
+***                       Sentaurus Workbench spp                        ***
+***                          Version U-2022.12                           ***
+***                      (2.7886616, x86_64, Linux)                      ***
+***                                                                      ***
+***                Copyright (c) 1994-2022 Synopsys, Inc.                ***
+***                                                                      ***
+***  This software and the associated documentation are confidential     ***
+***  and proprietary to Synopsys, Inc.  Your use or disclosure of this   ***
+***  software is subject to the terms and conditions of a written        ***
+***  license agreement between you, or your company, and Synopsys, Inc.  ***
+****************************************************************************
+
+spp is running on host 'ug142.eecg.toronto.edu' by user 'hemarath'
+Binary: '/CMC/tools/synopsys/sentaurus_vU-2022.12/bin/../tcad/current/linux64/bin/spp'
+Command line options: '-verbose -i -e 1 /homes/h/hemarath/SentaurusDB/ECE335/ECE335_Project_1_2023/ECE335_Project_1_2023'
+Project organization 'Traditional'
+Some relevant environment variables:
+	STROOT=/CMC/tools/synopsys/sentaurus_vU-2022.12/bin/..
+	STRELEASE=current
+	STROOT_LIB=/CMC/tools/synopsys/sentaurus_vU-2022.12/bin/../tcad/current/lib
+	STDB=/homes/h/hemarath/SentaurusDB
+	DATEX=/CMC/tools/synopsys/sentaurus_vU-2022.12/bin/../tcad/current/lib/datexcodes.txt
+	DISPLAY=localhost:22.0
+
+Preprocessing project '/nfs/ug/homes-1/h/hemarath/SentaurusDB/ECE335/ECE335_Project_1_2023/ECE335_Project_1_2023'
+Application mode : traditional
+spp will run in Global-per-node mode
+INITIALIZING PREPROCESSOR:
+Loading project tree '/nfs/ug/homes-1/h/hemarath/SentaurusDB/ECE335/ECE335_Project_1_2023/ECE335_Project_1_2023/gtree.dat'
+Loading project variables '/nfs/ug/homes-1/h/hemarath/SentaurusDB/ECE335/ECE335_Project_1_2023/ECE335_Project_1_2023/gvars.dat'
+--Get files to preprocess...
+  -->/nfs/ug/homes-1/h/hemarath/SentaurusDB/ECE335/ECE335_Project_1_2023/ECE335_Project_1_2023/sde_dvs.cmd
+  -->/nfs/ug/homes-1/h/hemarath/SentaurusDB/ECE335/ECE335_Project_1_2023/ECE335_Project_1_2023/sdevice_des.cmd
+  -->/nfs/ug/homes-1/h/hemarath/SentaurusDB/ECE335/ECE335_Project_1_2023/ECE335_Project_1_2023/sdevice.par
+  -->/nfs/ug/homes-1/h/hemarath/SentaurusDB/ECE335/ECE335_Project_1_2023/ECE335_Project_1_2023/sdevice1_des.cmd
+--Create file handlers...
+--Read the toolflow...
+--Analyze tool-file dependencies...
+--Read all nodes to preprocess...
+--Group nodes into experiments...
+--Get all variables...
+--Get all parameters...
+PREPROCESSOR SUCCESSFULLY INITIALIZED.
+PREPROCESSING STEP 1:
+Reading file /nfs/ug/homes-1/h/hemarath/SentaurusDB/ECE335/ECE335_Project_1_2023/ECE335_Project_1_2023/sde_dvs.cmd
+Reading file /nfs/ug/homes-1/h/hemarath/SentaurusDB/ECE335/ECE335_Project_1_2023/ECE335_Project_1_2023/sdevice_des.cmd
+Reading file /nfs/ug/homes-1/h/hemarath/SentaurusDB/ECE335/ECE335_Project_1_2023/ECE335_Project_1_2023/sdevice.par
+Reading file /nfs/ug/homes-1/h/hemarath/SentaurusDB/ECE335/ECE335_Project_1_2023/ECE335_Project_1_2023/sdevice1_des.cmd
+PREPROCESSING STEP 2:
+---------------------------------------
+Preprocessing file /nfs/ug/homes-1/h/hemarath/SentaurusDB/ECE335/ECE335_Project_1_2023/ECE335_Project_1_2023/sde_dvs.cmd for node 1
+  -Parameter substitution: '@node@' has been replaced by '1'
+
++++Preprocessed file written to /nfs/ug/homes-1/h/hemarath/SentaurusDB/ECE335/ECE335_Project_1_2023/ECE335_Project_1_2023/pp1_dvs.cmd
+  -Parameter substitution: '@commands@' has been replaced by 'pp1_dvs.cmd'
+
+  -Parameter substitution: '@node@' has been replaced by '1'
+
+  -Parameter substitution: '@pwdout@' has been replaced by '/nfs/ug/homes-1/h/hemarath/SentaurusDB/ECE335/ECE335_Project_1_2023/ECE335_Project_1_2023'
+
+  -Parameter substitution: '@nodedir@' has been replaced by '.'
+
+  -Parameter substitution: '@node@' has been replaced by '1'
+
+cmd_line:-e -l n1_dvs.cmd
+  -Parameter substitution: '@stdout@' has been replaced by 'n1_dvs.out'
+
+  -Parameter substitution: '@node@' has been replaced by '1'
+
+post_tcl_cmd: extract_vars "$nodedir" n1_dvs.out 1 
+Writing 'gexec.cmd'
+PREPROCESSING FINISHED, Fri Nov 17 07:49:14 2023
+STATUS: Ok
+Processing time = 0 s
+

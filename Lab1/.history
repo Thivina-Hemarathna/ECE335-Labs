@@ -1,0 +1,322 @@
+12:59:00 Sep 20 2022 <ECE335_Project_0> submitted to the batch system
+12:59:01 Sep 20 2022     job 1 <sde> started on host 'ug148.eecg.toronto.edu': "sde -e -l n1_dvs.cmd"
+12:59:05 Sep 20 2022 +++ job 1 <sde> done: exit(0)
+12:59:07 Sep 20 2022 <ECE335_Project_0> done (7 sec)
+13:31:09 Sep 21 2022 <ECE335_Project_0> submitted to the batch system
+13:31:09 Sep 21 2022     job 38 <sdevice> started on host 'ug148.eecg.toronto.edu': "sdevice pp38_des.cmd"
+13:32:01 Sep 21 2022 <ECE335_Project_0> done (52 sec)
+13:32:54 Sep 21 2022 <ECE335_Project_0> submitted to the batch system
+13:32:54 Sep 21 2022     job 38 <sdevice> started on host 'ug148.eecg.toronto.edu': "sdevice pp38_des.cmd"
+13:33:42 Sep 21 2022 +++ job 38 <sdevice> done: exit(0)
+13:33:44 Sep 21 2022 <ECE335_Project_0> done (50 sec)
+13:50:49 Sep 21 2022 <ECE335_Project_0> submitted to the batch system
+13:50:50 Sep 21 2022     job 1 <sde> started on host 'ug148.eecg.toronto.edu': "sde -e -l n1_dvs.cmd"
+13:50:52 Sep 21 2022 --- job 1 <sde> exited abnormally: exit()
+13:50:54 Sep 21 2022 <ECE335_Project_0> failed
+13:51:48 Sep 21 2022 <ECE335_Project_0> submitted to the batch system
+13:51:49 Sep 21 2022     job 1 <sde> started on host 'ug148.eecg.toronto.edu': "sde -e -l n1_dvs.cmd"
+13:51:51 Sep 21 2022 +++ job 1 <sde> done: exit(0)
+13:51:54 Sep 21 2022 <ECE335_Project_0> done (6 sec)
+13:56:06 Sep 21 2022 <ECE335_Project_0> submitted to the batch system
+13:56:07 Sep 21 2022     job 1 <sde> started on host 'ug148.eecg.toronto.edu': "sde -e -l n1_dvs.cmd"
+13:56:10 Sep 21 2022 +++ job 1 <sde> done: exit(0)
+13:56:12 Sep 21 2022 <ECE335_Project_0> done (6 sec)
+14:01:36 Sep 21 2022 <ECE335_Project_0> submitted to the batch system
+14:01:37 Sep 21 2022     job 1 <sde> started on host 'ug148.eecg.toronto.edu': "sde -e -l n1_dvs.cmd"
+14:01:39 Sep 21 2022 --- job 1 <sde> exited abnormally: exit()
+14:01:41 Sep 21 2022 <ECE335_Project_0> failed
+14:02:19 Sep 21 2022 <ECE335_Project_0> submitted to the batch system
+14:02:20 Sep 21 2022     job 1 <sde> started on host 'ug148.eecg.toronto.edu': "sde -e -l n1_dvs.cmd"
+14:02:23 Sep 21 2022 +++ job 1 <sde> done: exit(0)
+14:02:25 Sep 21 2022 <ECE335_Project_0> done (6 sec)
+16:44:41 Sep 21 2022 <ECE335_Project_0> submitted to the batch system
+16:44:42 Sep 21 2022     job 1 <sde> started on host 'ug148.eecg.toronto.edu': "sde -e -l n1_dvs.cmd"
+16:44:45 Sep 21 2022 +++ job 1 <sde> done: exit(0)
+16:44:47 Sep 21 2022 <ECE335_Project_0> done (6 sec)
+16:46:29 Sep 21 2022 <ECE335_Project_0> submitted to the batch system
+16:46:29 Sep 21 2022     job 38 <sdevice> started on host 'ug148.eecg.toronto.edu': "sdevice pp38_des.cmd"
+16:46:32 Sep 21 2022 +++ job 38 <sdevice> done: exit(0)
+16:46:34 Sep 21 2022 <ECE335_Project_0> done (5 sec)
+16:48:26 Sep 21 2022 <ECE335_Project_0> submitted to the batch system
+16:48:26 Sep 21 2022     job 38 <sdevice> started on host 'ug148.eecg.toronto.edu': "sdevice pp38_des.cmd"
+16:48:28 Sep 21 2022 --- job 38 <sdevice> exited abnormally: exit()
+16:48:31 Sep 21 2022 <ECE335_Project_0> failed
+16:49:03 Sep 21 2022 <ECE335_Project_0> submitted to the batch system
+16:49:04 Sep 21 2022     job 38 <sdevice> started on host 'ug148.eecg.toronto.edu': "sdevice pp38_des.cmd"
+16:49:06 Sep 21 2022 --- job 38 <sdevice> exited abnormally: exit()
+16:49:08 Sep 21 2022 <ECE335_Project_0> failed
+16:49:49 Sep 21 2022 <ECE335_Project_0> submitted to the batch system
+16:49:50 Sep 21 2022     job 38 <sdevice> started on host 'ug148.eecg.toronto.edu': "sdevice pp38_des.cmd"
+16:50:39 Sep 21 2022 +++ job 38 <sdevice> done: exit(0)
+16:50:41 Sep 21 2022 <ECE335_Project_0> done (52 sec)
+16:58:30 Sep 21 2022 <ECE335_Project_0> submitted to the batch system
+16:58:31 Sep 21 2022     job 1 <sde> started on host 'ug148.eecg.toronto.edu': "sde -e -l n1_dvs.cmd"
+16:58:33 Sep 21 2022 +++ job 1 <sde> done: exit(0)
+16:58:36 Sep 21 2022 <ECE335_Project_0> done (6 sec)
+16:59:26 Sep 21 2022 <ECE335_Project_0> submitted to the batch system
+16:59:26 Sep 21 2022     job 38 <sdevice> started on host 'ug148.eecg.toronto.edu': "sdevice pp38_des.cmd"
+17:00:04 Sep 21 2022 --- job 38 <sdevice> exited abnormally: exit()
+17:00:07 Sep 21 2022 <ECE335_Project_0> failed
+14:56:10 Nov 09 2022 <ECE335_Project_1> submitted to the batch system
+14:56:10 Nov 09 2022     job 38 <sdevice> started on host 'ug142.eecg.toronto.edu': "sdevice pp38_des.cmd"
+14:56:48 Nov 09 2022 --- job 38 <sdevice> exited abnormally: exit()
+14:56:50 Nov 09 2022 <ECE335_Project_0> failed
+15:01:34 Nov 09 2022 <ECE335_Project_1> submitted to the batch system
+15:01:35 Nov 09 2022     job 38 <sdevice> started on host 'ug142.eecg.toronto.edu': "sdevice pp38_des.cmd"
+15:02:13 Nov 09 2022 --- job 38 <sdevice> exited abnormally: exit()
+15:02:15 Nov 09 2022 <ECE335_Project_1> failed
+15:10:10 Nov 09 2022 <ECE335_Project_1> submitted to the batch system
+15:10:10 Nov 09 2022     job 38 <sdevice> started on host 'ug142.eecg.toronto.edu': "sdevice pp38_des.cmd"
+15:16:16 Nov 09 2022 --- job 38 <sdevice> exited abnormally: exit()
+15:16:18 Nov 09 2022 <ECE335_Project_1> failed
+11:56:22 Nov 10 2022 <ECE335_Project_1> submitted to the batch system
+11:56:22 Nov 10 2022     job 1 <sde> started on host 'ug142.eecg.toronto.edu': "sde -e -l n1_dvs.cmd"
+11:56:24 Nov 10 2022 +++ job 1 <sde> done: exit(0)
+11:56:27 Nov 10 2022 <ECE335_Project_1> done (5 sec)
+11:57:23 Nov 10 2022 <ECE335_Project_1> submitted to the batch system
+11:57:24 Nov 10 2022     job 1 <sde> started on host 'ug142.eecg.toronto.edu': "sde -e -l n1_dvs.cmd"
+11:57:26 Nov 10 2022 +++ job 1 <sde> done: exit(0)
+11:57:28 Nov 10 2022 <ECE335_Project_1> done (5 sec)
+11:58:36 Nov 10 2022 <ECE335_Project_1> submitted to the batch system
+11:58:36 Nov 10 2022     job 38 <sdevice> started on host 'ug142.eecg.toronto.edu': "sdevice pp38_des.cmd"
+12:05:48 Nov 10 2022 +++ job 38 <sdevice> done: exit(0)
+12:05:50 Nov 10 2022 <ECE335_Project_1> done (434 sec)
+12:12:19 Nov 10 2022 <ECE335_Project_1> submitted to the batch system
+12:12:20 Nov 10 2022     job 38 <sdevice> started on host 'ug142.eecg.toronto.edu': "sdevice pp38_des.cmd"
+12:18:55 Nov 10 2022 <ECE335_Project_1> done (396 sec)
+12:19:15 Nov 10 2022 <ECE335_Project_1> submitted to the batch system
+12:19:16 Nov 10 2022     job 1 <sde> started on host 'ug142.eecg.toronto.edu': "sde -e -l n1_dvs.cmd"
+12:19:18 Nov 10 2022 +++ job 1 <sde> done: exit(0)
+12:19:21 Nov 10 2022 <ECE335_Project_1> done (6 sec)
+12:20:46 Nov 10 2022 <ECE335_Project_1> submitted to the batch system
+12:20:46 Nov 10 2022     job 38 <sdevice> started on host 'ug142.eecg.toronto.edu': "sdevice pp38_des.cmd"
+12:28:44 Nov 10 2022 +++ job 38 <sdevice> done: exit(0)
+12:28:46 Nov 10 2022 <ECE335_Project_1> done (480 sec)
+14:55:43 Nov 10 2022 <ECE335_Project_1> submitted to the batch system
+14:55:43 Nov 10 2022     job 38 <sdevice> started on host 'ug142.eecg.toronto.edu': "sdevice pp38_des.cmd"
+14:55:46 Nov 10 2022 +++ job 38 <sdevice> done: exit(0)
+14:55:48 Nov 10 2022 <ECE335_Project_1> done (5 sec)
+10:36:22 Nov 11 2022 <ECE335_Project_1> submitted to the batch system
+10:36:23 Nov 11 2022     job 38 <sdevice> started on host 'ug142.eecg.toronto.edu': "sdevice pp38_des.cmd"
+10:44:24 Nov 11 2022 +++ job 38 <sdevice> done: exit(0)
+10:44:26 Nov 11 2022 <ECE335_Project_1> done (484 sec)
+10:38:09 Nov 16 2022 <ECE335_Project_1> submitted to the batch system
+10:38:09 Nov 16 2022     job 1 <sde> started on host 'ug142.eecg.toronto.edu': "sde -e -l n1_dvs.cmd"
+10:38:11 Nov 16 2022 +++ job 1 <sde> done: exit(0)
+10:38:14 Nov 16 2022 <ECE335_Project_1> done (5 sec)
+10:39:27 Nov 16 2022 <ECE335_Project_1> submitted to the batch system
+10:39:28 Nov 16 2022     job 1 <sde> started on host 'ug142.eecg.toronto.edu': "sde -e -l n1_dvs.cmd"
+10:39:30 Nov 16 2022 --- job 1 <sde> exited abnormally: exit()
+10:39:32 Nov 16 2022 <ECE335_Project_1> failed
+10:40:38 Nov 16 2022 <ECE335_Project_1> submitted to the batch system
+10:40:39 Nov 16 2022     job 1 <sde> started on host 'ug142.eecg.toronto.edu': "sde -e -l n1_dvs.cmd"
+10:40:41 Nov 16 2022 --- job 1 <sde> exited abnormally: exit()
+10:40:43 Nov 16 2022 <ECE335_Project_1> failed
+10:41:03 Nov 16 2022 <ECE335_Project_1> submitted to the batch system
+10:41:04 Nov 16 2022     job 1 <sde> started on host 'ug142.eecg.toronto.edu': "sde -e -l n1_dvs.cmd"
+10:41:06 Nov 16 2022 +++ job 1 <sde> done: exit(0)
+10:41:09 Nov 16 2022 <ECE335_Project_1> done (6 sec)
+10:42:00 Nov 16 2022 <ECE335_Project_1> submitted to the batch system
+10:42:01 Nov 16 2022     job 1 <sde> started on host 'ug142.eecg.toronto.edu': "sde -e -l n1_dvs.cmd"
+10:42:03 Nov 16 2022 +++ job 1 <sde> done: exit(0)
+10:42:06 Nov 16 2022 <ECE335_Project_1> done (6 sec)
+10:07:54 Nov 17 2022 <ECE335_Project_1> submitted to the batch system
+10:07:54 Nov 17 2022     job 1 <sde> started on host 'ug142.eecg.toronto.edu': "sde -e -l n1_dvs.cmd"
+10:07:56 Nov 17 2022 +++ job 1 <sde> done: exit(0)
+10:08:00 Nov 17 2022 <ECE335_Project_1> done (6 sec)
+10:08:13 Nov 17 2022 <ECE335_Project_1> submitted to the batch system
+10:08:14 Nov 17 2022     job 38 <sdevice> started on host 'ug142.eecg.toronto.edu': "sdevice pp38_des.cmd"
+10:08:17 Nov 17 2022 --- job 38 <sdevice> exited abnormally: exit()
+10:08:19 Nov 17 2022 <ECE335_Project_1> failed
+10:11:29 Nov 17 2022 <ECE335_Project_1> submitted to the batch system
+10:11:29 Nov 17 2022     job 38 <sdevice> started on host 'ug142.eecg.toronto.edu': "sdevice pp38_des.cmd"
+10:11:32 Nov 17 2022 --- job 38 <sdevice> exited abnormally: exit()
+10:11:35 Nov 17 2022 <ECE335_Project_1> failed
+10:13:52 Nov 17 2022 <ECE335_Project_1> submitted to the batch system
+10:13:53 Nov 17 2022     job 38 <sdevice> started on host 'ug142.eecg.toronto.edu': "sdevice pp38_des.cmd"
+10:21:05 Nov 17 2022 +++ job 38 <sdevice> done: exit(0)
+10:21:07 Nov 17 2022 <ECE335_Project_1> done (435 sec)
+16:09:26 Nov 17 2022 <ECE335_Project_1> submitted to the batch system
+16:09:27 Nov 17 2022     job 1 <sde> started on host 'ug142.eecg.toronto.edu': "sde -e -l n1_dvs.cmd"
+16:09:30 Nov 17 2022 +++ job 1 <sde> done: exit(0)
+16:09:32 Nov 17 2022 <ECE335_Project_1> done (6 sec)
+16:09:54 Nov 17 2022 <ECE335_Project_1> submitted to the batch system
+16:09:55 Nov 17 2022     job 38 <sdevice> started on host 'ug142.eecg.toronto.edu': "sdevice pp38_des.cmd"
+16:15:43 Nov 17 2022 <ECE335_Project_1> done (349 sec)
+16:16:06 Nov 17 2022 <ECE335_Project_1> submitted to the batch system
+16:16:07 Nov 17 2022     job 1 <sde> started on host 'ug142.eecg.toronto.edu': "sde -e -l n1_dvs.cmd"
+16:16:09 Nov 17 2022 +++ job 1 <sde> done: exit(0)
+16:16:12 Nov 17 2022 <ECE335_Project_1> done (6 sec)
+16:18:50 Nov 17 2022 <ECE335_Project_1> submitted to the batch system
+16:18:51 Nov 17 2022     job 38 <sdevice> started on host 'ug142.eecg.toronto.edu': "sdevice pp38_des.cmd"
+16:18:53 Nov 17 2022 --- job 38 <sdevice> exited abnormally: exit()
+16:18:55 Nov 17 2022 <ECE335_Project_1> failed
+16:21:48 Nov 17 2022 <ECE335_Project_1> submitted to the batch system
+16:21:48 Nov 17 2022     job 38 <sdevice> started on host 'ug142.eecg.toronto.edu': "sdevice pp38_des.cmd"
+16:28:52 Nov 17 2022 +++ job 38 <sdevice> done: exit(0)
+16:28:54 Nov 17 2022 <ECE335_Project_1> done (426 sec)
+11:02:18 Sep 14 2023 <ECE335_Project_1_start> submitted to the batch system
+11:02:19 Sep 14 2023     job 1 <sde> started on host 'ug142': "sde -e -l n1_dvs.cmd"
+11:02:26 Sep 14 2023 +++ job 1 <sde> done: exit(0)
+11:02:29 Sep 14 2023 <ECE335_Project_1_start> done (11 sec)
+11:13:23 Sep 14 2023 <ECE335_Project_1_start> submitted to the batch system
+11:13:23 Sep 14 2023     job 1 <sde> started on host 'ug142': "sde -e -l n1_dvs.cmd"
+11:13:30 Sep 14 2023 +++ job 1 <sde> done: exit(0)
+11:13:34 Sep 14 2023 <ECE335_Project_1_start> done (11 sec)
+13:26:46 Sep 14 2023 <ECE335_Project_1_start> submitted to the batch system
+13:26:47 Sep 14 2023     job 1 <sde> started on host 'ug142': "sde -e -l n1_dvs.cmd"
+13:26:54 Sep 14 2023 +++ job 1 <sde> done: exit(0)
+13:26:56 Sep 14 2023 <ECE335_Project_1_start> done (10 sec)
+13:28:32 Sep 14 2023 <ECE335_Project_1_start> submitted to the batch system
+13:28:33 Sep 14 2023     job 32 <sdevice> started on host 'ug142': "sdevice --max_threads 2  pp32_des.cmd"
+13:32:32 Sep 14 2023 +++ job 32 <sdevice> done: exit(0)
+13:32:35 Sep 14 2023 <ECE335_Project_1_start> done (243 sec)
+13:48:19 Sep 14 2023 <ECE335_Project_1_start> submitted to the batch system
+13:48:19 Sep 14 2023     job 38 <sdevice> started on host 'ug142': "sdevice --max_threads 2  pp38_des.cmd"
+13:51:50 Sep 14 2023 --- job 38 <sdevice> exited abnormally: exit()
+13:51:52 Sep 14 2023 <ECE335_Project_1_start> failed
+15:36:21 Sep 14 2023 <ECE335_Project_1_start> submitted to the batch system
+15:36:22 Sep 14 2023 <ECE335_Project_1_start> done (1 sec)
+15:54:47 Sep 14 2023 <ECE335_Project_1_start> submitted to the batch system
+15:54:48 Sep 14 2023     job 4 <sde> started on host 'ug142': "sde -e -l n4_dvs.cmd"
+15:54:53 Sep 14 2023 <ECE335_Project_1_start> submitted to the batch system
+15:54:53 Sep 14 2023     job 6 <sde> started on host 'ug142': "sde -e -l n6_dvs.cmd"
+15:54:54 Sep 14 2023 +++ job 4 <sde> done: exit(0)
+15:54:57 Sep 14 2023 <ECE335_Project_1_start> done (10 sec)
+15:55:00 Sep 14 2023 +++ job 6 <sde> done: exit(0)
+15:55:03 Sep 14 2023 <ECE335_Project_1_start> done (10 sec)
+16:20:21 Sep 14 2023 <ECE335_Project_1_start> submitted to the batch system
+16:20:22 Sep 14 2023     job 32 <sdevice> started on host 'ug142': "sdevice --max_threads 2  pp32_des.cmd"
+16:21:18 Sep 14 2023 <ECE335_Project_1_start> done (57 sec)
+16:21:31 Sep 14 2023 <ECE335_Project_1_start> submitted to the batch system
+16:21:32 Sep 14 2023     job 32 <sdevice> started on host 'ug142': "sdevice --max_threads 2  pp32_des.cmd"
+16:25:42 Sep 14 2023 +++ job 32 <sdevice> done: exit(0)
+16:25:44 Sep 14 2023 <ECE335_Project_1_start> done (253 sec)
+16:30:10 Sep 14 2023 <ECE335_Project_1_start> submitted to the batch system
+16:30:11 Sep 14 2023     job 1 <sde> started on host 'ug142': "sde -e -l n1_dvs.cmd"
+16:30:18 Sep 14 2023 +++ job 1 <sde> done: exit(0)
+16:30:21 Sep 14 2023 <ECE335_Project_1_start> done (11 sec)
+16:31:33 Sep 14 2023 <ECE335_Project_1_start> submitted to the batch system
+16:31:34 Sep 14 2023     job 32 <sdevice> started on host 'ug142': "sdevice --max_threads 2  pp32_des.cmd"
+16:35:27 Sep 14 2023 +++ job 32 <sdevice> done: exit(0)
+16:35:29 Sep 14 2023 <ECE335_Project_1_start> done (236 sec)
+16:48:07 Sep 15 2023 <ECE335_Project_1_start> submitted to the batch system
+16:48:08 Sep 15 2023     job 38 <sdevice> started on host 'ug142': "sdevice --max_threads 2  pp38_des.cmd"
+16:52:09 Sep 15 2023 +++ job 38 <sdevice> done: exit(0)
+16:52:11 Sep 15 2023 <ECE335_Project_1_start> done (244 sec)
+07:40:23 Nov 17 2023 <ECE335_Project_1_2023> submitted to the batch system
+07:40:24 Nov 17 2023 <ECE335_Project_1_2023> failed: nok
+07:41:11 Nov 17 2023 <ECE335_Project_1_2023> submitted to the batch system
+07:41:12 Nov 17 2023     job 1 <sde> started on host 'ug142': "sde -e -l n1_dvs.cmd"
+07:41:19 Nov 17 2023 +++ job 1 <sde> done: exit(0)
+07:41:21 Nov 17 2023 <ECE335_Project_1_2023> done (10 sec)
+07:43:19 Nov 17 2023 <ECE335_Project_1_2023> submitted to the batch system
+07:43:20 Nov 17 2023     job 1 <sde> started on host 'ug142': "sde -e -l n1_dvs.cmd"
+07:43:25 Nov 17 2023 --- job 1 <sde> exited abnormally: exit()
+07:43:27 Nov 17 2023 <ECE335_Project_1_2023> failed
+07:44:13 Nov 17 2023 <ECE335_Project_1_2023> submitted to the batch system
+07:44:14 Nov 17 2023     job 1 <sde> started on host 'ug142': "sde -e -l n1_dvs.cmd"
+07:44:21 Nov 17 2023 +++ job 1 <sde> done: exit(0)
+07:44:23 Nov 17 2023 <ECE335_Project_1_2023> done (10 sec)
+07:47:29 Nov 17 2023 <ECE335_Project_1_2023> submitted to the batch system
+07:47:31 Nov 17 2023 <ECE335_Project_1_2023> done (2 sec)
+07:54:49 Nov 17 2023 <ECE335_Project_1_2023> submitted to the batch system
+07:54:49 Nov 17 2023     job 1 <sde> started on host 'ug142': "sde -e -l n1_dvs.cmd"
+07:54:56 Nov 17 2023 +++ job 1 <sde> done: exit(0)
+07:54:58 Nov 17 2023 <ECE335_Project_1_2023> done (9 sec)
+07:57:27 Nov 17 2023 <ECE335_Project_1_2023> submitted to the batch system
+07:57:27 Nov 17 2023 <ECE335_Project_1_2023> failed: nok
+07:58:22 Nov 17 2023 <ECE335_Project_1_2023> submitted to the batch system
+07:58:23 Nov 17 2023     job 32 <sdevice> started on host 'ug142': "sdevice --max_threads 1  pp32_des.cmd"
+07:58:29 Nov 17 2023 --- job 32 <sdevice> exited abnormally: exit()
+07:58:31 Nov 17 2023 <ECE335_Project_1_2023> failed
+07:59:39 Nov 17 2023 <ECE335_Project_1_2023> submitted to the batch system
+07:59:40 Nov 17 2023     job 32 <sdevice> started on host 'ug142': "sdevice --max_threads 1  pp32_des.cmd"
+08:00:12 Nov 17 2023 +++ job 32 <sdevice> done: exit(0)
+08:00:13 Nov 17 2023     job 38 <sdevice> started on host 'ug142': "sdevice --max_threads 2  pp38_des.cmd"
+08:00:19 Nov 17 2023 --- job 38 <sdevice> exited abnormally: exit()
+08:00:21 Nov 17 2023 <ECE335_Project_1_2023> failed
+08:02:23 Nov 17 2023 <ECE335_Project_1_2023> submitted to the batch system
+08:02:23 Nov 17 2023     job 38 <sdevice> started on host 'ug142': "sdevice --max_threads 2  pp38_des.cmd"
+08:02:29 Nov 17 2023 --- job 38 <sdevice> exited abnormally: exit()
+08:02:31 Nov 17 2023 <ECE335_Project_1_2023> failed
+08:11:26 Nov 17 2023 <ECE335_Project_1_2023> submitted to the batch system
+08:11:27 Nov 17 2023     job 38 <sdevice> started on host 'ug142': "sdevice --max_threads 2  pp38_des.cmd"
+08:11:32 Nov 17 2023 --- job 38 <sdevice> exited abnormally: exit()
+08:11:35 Nov 17 2023 <ECE335_Project_1_2023> failed
+08:17:17 Nov 17 2023 <ECE335_Project_1_2023> submitted to the batch system
+08:17:17 Nov 17 2023     job 38 <sdevice> started on host 'ug142': "sdevice --max_threads 2  pp38_des.cmd"
+08:21:54 Nov 17 2023 +++ job 38 <sdevice> done: exit(0)
+08:21:57 Nov 17 2023 <ECE335_Project_1_2023> done (280 sec)
+08:23:41 Nov 17 2023 <ECE335_Project_1_2023> submitted to the batch system
+08:23:41 Nov 17 2023     job 32 <sdevice> started on host 'ug142': "sdevice --max_threads 1  pp32_des.cmd"
+08:24:12 Nov 17 2023 +++ job 32 <sdevice> done: exit(0)
+08:24:13 Nov 17 2023     job 38 <sdevice> started on host 'ug142': "sdevice --max_threads 2  pp38_des.cmd"
+08:28:55 Nov 17 2023 +++ job 38 <sdevice> done: exit(0)
+08:28:57 Nov 17 2023 <ECE335_Project_1_2023> done (316 sec)
+08:34:59 Nov 17 2023 <ECE335_Project_1_2023> submitted to the batch system
+08:35:00 Nov 17 2023     job 32 <sdevice> started on host 'ug142': "sdevice --max_threads 1  pp32_des.cmd"
+08:35:05 Nov 17 2023 --- job 32 <sdevice> exited abnormally: exit()
+08:35:07 Nov 17 2023 <ECE335_Project_1_2023> failed
+08:37:03 Nov 17 2023 <ECE335_Project_1_2023> submitted to the batch system
+08:37:04 Nov 17 2023     job 32 <sdevice> started on host 'ug142': "sdevice --max_threads 1  pp32_des.cmd"
+08:37:35 Nov 17 2023 +++ job 32 <sdevice> done: exit(0)
+08:37:37 Nov 17 2023 <ECE335_Project_1_2023> done (34 sec)
+09:35:37 Nov 17 2023 <ECE335_Project_1_2023> submitted to the batch system
+09:35:38 Nov 17 2023     job 32 <sdevice> started on host 'ug142': "sdevice --max_threads 1  pp32_des.cmd"
+09:35:43 Nov 17 2023 +++ job 32 <sdevice> done: exit(0)
+09:35:46 Nov 17 2023 <ECE335_Project_1_2023> done (9 sec)
+18:54:36 Nov 18 2023 <ECE335_Project_1_2023> submitted to the batch system
+18:54:37 Nov 18 2023     job 32 <sdevice> started on host 'ug142': "sdevice --max_threads 2  pp32_des.cmd"
+18:54:43 Nov 18 2023 --- job 32 <sdevice> exited abnormally: exit()
+18:54:45 Nov 18 2023 <ECE335_Project_1_2023> failed
+18:56:21 Nov 18 2023 <ECE335_Project_1_2023> submitted to the batch system
+18:56:21 Nov 18 2023     job 32 <sdevice> started on host 'ug142': "sdevice --max_threads 2  pp32_des.cmd"
+18:56:27 Nov 18 2023 --- job 32 <sdevice> exited abnormally: exit()
+18:56:29 Nov 18 2023 <ECE335_Project_1_2023> failed
+18:56:59 Nov 18 2023 <ECE335_Project_1_2023> submitted to the batch system
+18:57:00 Nov 18 2023     job 32 <sdevice> started on host 'ug142': "sdevice --max_threads 2  pp32_des.cmd"
+18:57:05 Nov 18 2023 --- job 32 <sdevice> exited abnormally: exit()
+18:57:08 Nov 18 2023 <ECE335_Project_1_2023> failed
+18:59:26 Nov 18 2023 <ECE335_Project_1_2023> submitted to the batch system
+18:59:27 Nov 18 2023     job 32 <sdevice> started on host 'ug142': "sdevice --max_threads 2  pp32_des.cmd"
+19:03:50 Nov 18 2023 +++ job 32 <sdevice> done: exit(0)
+19:03:52 Nov 18 2023 <ECE335_Project_1_2023> done (266 sec)
+19:16:47 Nov 18 2023 <ECE335_Project_1_2023> submitted to the batch system
+19:16:48 Nov 18 2023 <ECE335_Project_1_2023> failed: nok
+19:17:07 Nov 18 2023 <ECE335_Project_1_2023> submitted to the batch system
+19:17:07 Nov 18 2023 <ECE335_Project_1_2023> failed: nok
+19:17:46 Nov 18 2023 <ECE335_Project_1_2023> submitted to the batch system
+19:17:46 Nov 18 2023     job 32 <sdevice> started on host 'ug142': "sdevice --max_threads 2  pp32_des.cmd"
+19:21:50 Nov 18 2023 +++ job 32 <sdevice> done: exit(0)
+19:21:52 Nov 18 2023 <ECE335_Project_1_2023> done (246 sec)
+19:34:01 Nov 18 2023 <ECE335_Project_1_2023> submitted to the batch system
+19:34:02 Nov 18 2023     job 32 <sdevice> started on host 'ug142': "sdevice --max_threads 2  pp32_des.cmd"
+19:34:15 Nov 18 2023 --- job 32 <sdevice> exited abnormally: exit()
+19:34:17 Nov 18 2023 <ECE335_Project_1_2023> failed
+19:38:22 Nov 18 2023 <ECE335_Project_1_2023> submitted to the batch system
+19:38:22 Nov 18 2023     job 32 <sdevice> started on host 'ug142': "sdevice --max_threads 2  pp32_des.cmd"
+19:38:35 Nov 18 2023 --- job 32 <sdevice> exited abnormally: exit()
+19:38:37 Nov 18 2023 <ECE335_Project_1_2023> failed
+19:42:15 Nov 18 2023 <ECE335_Project_1_2023> submitted to the batch system
+19:42:15 Nov 18 2023     job 32 <sdevice> started on host 'ug142': "sdevice --max_threads 2  pp32_des.cmd"
+19:42:28 Nov 18 2023 --- job 32 <sdevice> exited abnormally: exit()
+19:42:30 Nov 18 2023 <ECE335_Project_1_2023> failed
+19:55:42 Nov 18 2023 <ECE335_Project_1_2023> submitted to the batch system
+19:55:42 Nov 18 2023     job 32 <sdevice> started on host 'ug142': "sdevice --max_threads 2  pp32_des.cmd"
+19:55:55 Nov 18 2023 --- job 32 <sdevice> exited abnormally: exit()
+19:55:58 Nov 18 2023 <ECE335_Project_1_2023> failed
+20:04:24 Nov 18 2023 <ECE335_Project_1_2023> submitted to the batch system
+20:04:24 Nov 18 2023 <ECE335_Project_1_2023> failed: nok
+20:05:28 Nov 18 2023 <ECE335_Project_1_2023> submitted to the batch system
+20:05:29 Nov 18 2023     job 38 <sdevice> started on host 'ug142': "sdevice --max_threads 2  pp38_des.cmd"
+20:09:45 Nov 18 2023 +++ job 38 <sdevice> done: exit(0)
+20:09:47 Nov 18 2023 <ECE335_Project_1_2023> done (259 sec)
+22:56:28 Nov 18 2023 <ECE335_Project_1_2023> submitted to the batch system
+22:56:29 Nov 18 2023 <ECE335_Project_1_2023> failed: nok
+22:57:08 Nov 18 2023 <ECE335_Project_1_2023> submitted to the batch system
+22:57:08 Nov 18 2023 <ECE335_Project_1_2023> failed: nok
+22:58:16 Nov 18 2023 <ECE335_Project_1_2023> submitted to the batch system
+22:58:17 Nov 18 2023     job 32 <sdevice> started on host 'ug142': "sdevice --max_threads 1  pp32_des.cmd"
+22:58:47 Nov 18 2023 +++ job 32 <sdevice> done: exit(0)
+22:58:49 Nov 18 2023 <ECE335_Project_1_2023> done (33 sec)
